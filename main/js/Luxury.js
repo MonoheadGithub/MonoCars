@@ -396,7 +396,7 @@ function SlideAside(props) {
 
 
     React.createElement("div", { className: "monocar-slide-aside__button" }, /*#__PURE__*/
-    React.createElement('a', {href: '../index'},
+    React.createElement('a', {href: '../'},
     React.createElement("button", { className: "button" }, "← Back to Homepage"), /*#__PURE__*/
 
     React.createElement(TransitionGroup, null, /*#__PURE__*/
@@ -812,7 +812,7 @@ function Header() {
   return /*#__PURE__*/(
     React.createElement("div", { className: "monocar-header" }, /*#__PURE__*/
     React.createElement("div", { className: "monocar-header__logo" }, /*#__PURE__*/
-    React.createElement('a', {href: '../index'},
+    React.createElement('a', {href: '../'},
     React.createElement("img", { src: logomonocar, alt: "" }))), /*#__PURE__*/
 
     React.createElement("div", { className: "monocar-header__nav" }, /*#__PURE__*/
