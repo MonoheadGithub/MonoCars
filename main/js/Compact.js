@@ -4,20 +4,20 @@ function _defineProperty(obj, key, value) {if (key in obj) {Object.definePropert
 -------------------------------------------------------------- */
 const
 floorImg = 'https://i.postimg.cc/MHd0Gfs4/floor.png',
-defualtcarImg = './img/c.png',
-c1 = './img/c1.png';
-c2 = './img/c2.png';
-c3 = './img/c3.png';
-c5 = './img/c5.png';
-c6 = './img/c6.png';
-c7 = './img/c7.png';
-c8 = './img/c8.png';
-c9 = './img/c9.png';
-c10 = './img/c10.png';
-c11 = './img/c11.png';
-c12 = './img/c12.png';
-c13 = './img/c13.png';
-c14 = './img/c14.png';
+defualtcarImg = 'https://i.imgur.com/wAgJX0S.png',
+c1 = 'https://i.imgur.com/ME5hr9p.png';
+c2 = 'https://i.imgur.com/kAgRDpv.png';
+c3 = 'https://i.imgur.com/aiFhx5W.png';
+c5 = 'https://i.imgur.com/F767ENa.png';
+c6 = 'https://i.imgur.com/LhwbjQq.png';
+c7 = 'https://i.imgur.com/Dyg3IrZ.png';
+c8 = 'https://i.imgur.com/lbls2ji.png';
+c9 = 'https://i.imgur.com/GI6YDKh.png';
+c10 = 'https://i.imgur.com/wfLoC8E.png';
+c11 = 'https://i.imgur.com/bKx8iZl.png';
+c12 = 'https://i.imgur.com/avTaDIa.png';
+c13 = 'https://i.imgur.com/RsFZpbp.png';
+c14 = 'https://i.imgur.com/v5FoSkX.png';
 const slides = [
 {
   id: 1,
