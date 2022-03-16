@@ -3,7 +3,7 @@ function _defineProperty(obj, key, value) {if (key in obj) {Object.definePropert
 /* Slides data
 -------------------------------------------------------------- */
 const
-floorImg = './img/floor.png',
+floorImg = 'https://i.postimg.cc/MHd0Gfs4/floor.png',
 defualtcarImg = './img/c.png',
 c1 = './img/c1.png';
 c2 = './img/c2.png';
