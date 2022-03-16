@@ -4,28 +4,28 @@ function _defineProperty(obj, key, value) {if (key in obj) {Object.definePropert
 -------------------------------------------------------------- */
 
 const
-floorImg = './img/floor.png',
-defualtcarImg = './img/c.png',
-l1 = './img/l1.png';
-l2 = './img/l2.png';
-l3 = './img/l3.png';
-l4 = './img/l4.png';
-l5 = './img/l5.png';
-l6 = './img/l6.png';
-l7 = './img/l7.png';
-l8 = './img/l8.png';
-l9 = './img/l9.png';
-l10 = './img/l10.png';
-l11 = './img/l11.png';
-l12 = './img/l12.png';
-l13 = './img/l13.png';
-l14 = './img/l14.png';
-l15 = './img/l15.png';
-l16 = './img/l16.png';
-l166 = './img/l166.png';
-l17 = './img/l17.png';
-lw1 = './img/lw1.png';
-lw2 = './img/lw2.png';
+floorImg = 'https://i.imgur.com/gj4AbSS.png',
+defualtcarImg = 'https://i.imgur.com/wAgJX0S.png',
+l1 = 'https://i.imgur.com/8apULAz.png';
+l2 = 'https://i.imgur.com/VlnOGVL.png';
+l3 = 'https://i.imgur.com/p3y5ZFX.png';
+l4 = 'https://i.imgur.com/nvXYY4Q.png';
+l5 = 'https://i.imgur.com/xLkLg52.png';
+l6 = 'https://i.imgur.com/sjCsERY.png';
+l7 = 'https://i.imgur.com/GnnPh2K.png';
+l8 = 'https://i.imgur.com/ILfjlvc.png';
+l9 = 'https://i.imgur.com/nN1BhQ2.png';
+l10 = 'https://i.imgur.com/6NUMmYZ.png';
+l11 = 'https://i.imgur.com/XtXvwdy.png';
+l12 = 'https://i.imgur.com/1F120Ey.png';
+l13 = 'https://i.imgur.com/HODcYdo.png';
+l14 = 'https://i.imgur.com/zeY0ytW.png';
+l15 = 'https://i.imgur.com/WlIVdkh.png';
+l16 = 'https://i.imgur.com/e45vT1V.png';
+l166 = 'https://i.imgur.com/rAEzFSY.png';
+l17 = 'https://i.imgur.com/Y5Dyyam.png';
+lw1 = 'https://i.imgur.com/eitrdMY.png';
+lw2 = 'https://i.imgur.com/vY6VCFA.png';
 const slides = [
 {
   id: 1,

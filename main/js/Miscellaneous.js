@@ -5,16 +5,16 @@ function _defineProperty(obj, key, value) {if (key in obj) {Object.definePropert
 
 
 const
-floorImg = './img/floor.png',
-defualtcarImg = './img/c.png',
-mis1 = './img/mis1.png';
-mis2 = './img/mis2.png';
-mis3 = './img/mis3.png';
-mis4 = './img/mis4.png';
-mis5 = './img/mis5.png';
-mis6 = './img/mis6.png';
-mis7 = './img/mis7.png';
-mis8 = './img/mis8.png';
+floorImg = 'https://i.imgur.com/gj4AbSS.png',
+defualtcarImg = 'https://i.imgur.com/wAgJX0S.png',
+mis1 = 'https://i.imgur.com/DxjNrBL.png';
+mis2 = 'https://i.imgur.com/WizbzEQ.png';
+mis3 = 'https://i.imgur.com/KY3a1c4.png';
+mis4 = 'https://i.imgur.com/NDqPux2.png';
+mis5 = 'https://i.imgur.com/HTWe6TU.png';
+mis6 = 'https://i.imgur.com/Djd97NT.png';
+mis7 = 'https://i.imgur.com/CbFa6YT.png';
+mis8 = 'https://i.imgur.com/eJZG0jr.png';
 const slides = [
 
 

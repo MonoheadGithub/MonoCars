@@ -5,18 +5,18 @@ function _defineProperty(obj, key, value) {if (key in obj) {Object.definePropert
 
 
 const
-floorImg = './img/floor.png',
-defualtcarImg = './img/c.png',
-suv1 = './img/suv1.png';
-suv2 = './img/suv2.png';
-suv3 = './img/suv3.png';
-suv4 = './img/suv4.png';
-suv5 = './img/suv5.png';
-suv6 = './img/suv6.png';
-suv7 = './img/suv7.png';
-suv8 = './img/suv8.png';
-suv9 = './img/suv9.png';
-suv10 = './img/suv10.png';
+floorImg = 'https://i.imgur.com/gj4AbSS.png',
+defualtcarImg = 'https://i.imgur.com/wAgJX0S.png',
+suv1 = 'https://i.imgur.com/QGxkDAg.png';
+suv2 = 'https://i.imgur.com/h1v8cTZ.png';
+suv3 = 'https://i.imgur.com/TaZQpzU.png';
+suv4 = 'https://i.imgur.com/6RHjcWe.png';
+suv5 = 'https://i.imgur.com/j3nwlvJ.png';
+suv6 = 'https://i.imgur.com/8j14JYp.png';
+suv7 = 'https://i.imgur.com/5hnmucv.png';
+suv8 = 'https://i.imgur.com/DXV9H9r.png';
+suv9 = 'https://i.imgur.com/bpyHUm0.png';
+suv10 = 'https://i.imgur.com/Rc27mdH.png';
 const slides = [
 
 

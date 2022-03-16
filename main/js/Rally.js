@@ -4,10 +4,10 @@ function _defineProperty(obj, key, value) {if (key in obj) {Object.definePropert
 -------------------------------------------------------------- */
 
 const
-floorImg = './img/floor.png',
-defualtcarImg = './img/c.png',
-ra1 = './img/ra1.png';
-ra2 = './img/ra2.png';
+floorImg = 'https://i.imgur.com/gj4AbSS.png',
+defualtcarImg = 'https://i.imgur.com/wAgJX0S.png',
+ra1 = 'https://i.imgur.com/rHdu3PY.png';
+ra2 = 'https://i.imgur.com/H4nz04Y.png';
 
 
 

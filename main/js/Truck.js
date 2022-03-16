@@ -5,13 +5,13 @@ function _defineProperty(obj, key, value) {if (key in obj) {Object.definePropert
 
 
 const
-floorImg = './img/floor.png',
-defualtcarImg = './img/c.png',
-tr1 = './img/tr1.png';
-tr2 = './img/tr2.png';
-tr3 = './img/tr3.png';
-tr4 = './img/tr4.png';
-tr5 = './img/tr5.png';
+floorImg = 'https://i.imgur.com/gj4AbSS.png',
+defualtcarImg = 'https://i.imgur.com/wAgJX0S.png',
+tr1 = 'https://i.imgur.com/4WuJ3vS.png';
+tr2 = 'https://i.imgur.com/o0Ocedg.png';
+tr3 = 'https://i.imgur.com/t6Mdbfu.png';
+tr4 = 'https://i.imgur.com/8EaV47K.png';
+tr5 = 'https://i.imgur.com/P8bAWTt.png';
 const slides = [
 
 

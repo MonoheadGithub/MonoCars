@@ -5,36 +5,36 @@ function _defineProperty(obj, key, value) {if (key in obj) {Object.definePropert
 
 
 const
-floorImg = './img/floor.png',
-defualtcarImg = './img/c.png',
-spo1 = './img/spo1.png';
-spo2 = './img/spo2.png';
-spo3 = './img/spo3.png';
-spo4 = './img/spo4.png';
-spo5 = './img/spo5.png';
-spo6 = './img/spo6.png';
-spo7 = './img/spo7.png';
-spo8 = './img/spo8.png';
-spo9 = './img/spo9.png';
-spo10 = './img/spo10.png';
-spo11 = './img/spo11.png';
-spo12 = './img/spo12.png';
-spo13 = './img/spo13.png';
-spo14 = './img/spo14.png';
-spo15 = './img/spo15.png';
-spo16 = './img/spo16.png';
-spo17 = './img/spo17.png';
-spo18 = './img/spo18.png';
-spo19 = './img/spo19.png';
-spo20 = './img/spo20.png';
-spo21 = './img/spo21.png';
-spo22 = './img/spo22.png';
-spo23 = './img/spo23.png';
-spo24 = './img/spo24.png';
-spo25 = './img/spo25.png';
-spo26 = './img/spo26.png';
-spo27 = './img/spo27.png';
-spo28 = './img/spo28.png';
+floorImg = 'https://i.imgur.com/gj4AbSS.png',
+defualtcarImg = 'https://i.imgur.com/wAgJX0S.png',
+spo1 = 'https://i.imgur.com/dXKqEs6.png';
+spo2 = 'https://i.imgur.com/JLE9CG2.png';
+spo3 = 'https://i.imgur.com/wEYEyDI.png';
+spo4 = 'https://i.imgur.com/JazRmDv.png';
+spo5 = 'https://i.imgur.com/cSGdzA4.png';
+spo6 = 'https://i.imgur.com/w4pkPQK.png';
+spo7 = 'https://i.imgur.com/OY6no7i.png';
+spo8 = 'https://i.imgur.com/G1OxnUR.png';
+spo9 = 'https://i.imgur.com/uz7WY5u.png';
+spo10 = 'https://i.imgur.com/kJn71Zf.png';
+spo11 = 'https://i.imgur.com/FDMlmnB.png';
+spo12 = 'https://i.imgur.com/xaFVkFT.png';
+spo13 = 'https://i.imgur.com/3khjuEM.png';
+spo14 = 'https://i.imgur.com/PgBSSDG.png';
+spo15 = 'https://i.imgur.com/umcHPGV.png';
+spo16 = 'https://i.imgur.com/auahERK.png';
+spo17 = 'https://i.imgur.com/yxsBUx4.png';
+spo18 = 'https://i.imgur.com/gTjnxUa.png';
+spo19 = 'https://i.imgur.com/Y8zuZQm.png';
+spo20 = 'https://i.imgur.com/5iE687I.png';
+spo21 = 'https://i.imgur.com/7gZcRtT.png';
+spo22 = 'https://i.imgur.com/DLrqiRX.png';
+spo23 = 'https://i.imgur.com/V0P04CR.png';
+spo24 = 'https://i.imgur.com/MSgnpS3.png';
+spo25 = 'https://i.imgur.com/LDoxA4m.png';
+spo26 = 'https://i.imgur.com/Hh9zmCi.png';
+spo27 = 'https://i.imgur.com/P5RV7el.png';
+spo28 = 'https://i.imgur.com/0XIUtcs.png';
 const slides = [
 {
   id: 1,

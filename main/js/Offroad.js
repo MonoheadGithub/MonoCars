@@ -5,10 +5,10 @@ function _defineProperty(obj, key, value) {if (key in obj) {Object.definePropert
 
 
 const
-floorImg = './img/floor.png',
-defualtcarImg = './img/c.png',
-off1 = './img/off1.png';
-off2 = './img/off2.png';
+floorImg = 'https://i.imgur.com/gj4AbSS.png',
+defualtcarImg = 'https://i.imgur.com/wAgJX0S.png',
+off1 = 'https://i.imgur.com/hnWBetT.png';
+off2 = 'https://i.imgur.com/nGbSDM6.png';
 const slides = [
 
 
