@@ -722,7 +722,7 @@ function Header() {
   return /*#__PURE__*/(
     React.createElement("div", { className: "monocar-header" }, /*#__PURE__*/
     React.createElement("div", { className: "monocar-header__logo" }, /*#__PURE__*/
-    React.createElement('a', {href: '../index.html'},
+    React.createElement('a', {href: '../index'},
     React.createElement("img", { src: logomonocar, alt: "" }))), /*#__PURE__*/
 
     React.createElement("div", { className: "monocar-header__nav" }, /*#__PURE__*/
