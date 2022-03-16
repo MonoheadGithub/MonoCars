@@ -419,7 +419,7 @@ class SliderNavigation extends React.Component {
 
 
 
-const logomonocar = 'https://monolithservers.com/forums/styles/xenith/images/logo.png',
+const logomonocar = 'https://i.imgur.com/QB6noJo.png',
 mouseImg = './img/mouse.svg',
 backarrow = './img/arrow.png';
 
