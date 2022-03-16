@@ -301,7 +301,7 @@ function SlideAside(props) {
 
 
     React.createElement("div", { className: "monocar-slide-aside__button" }, /*#__PURE__*/
-    React.createElement('a', {href: '../index.html'},
+    React.createElement('a', {href: '../index'},
     React.createElement("button", { className: "button" }, "← Back to Homepage"), /*#__PURE__*/
 
     React.createElement(TransitionGroup, null, /*#__PURE__*/
