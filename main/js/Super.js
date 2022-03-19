@@ -47,7 +47,7 @@ const slides = [
     color: "#FFC300",
     imgFloorUrl: floorImg,
     imgUrl: sup2,
-    topSpeed: 140,
+    topSpeed: 150,
     slots: 4,
     seats:2,
     Price: 3599999,
@@ -55,15 +55,31 @@ const slides = [
     carShadowHeight: 200,
     shadowOpacity: 0.5 },
 
+    {
+      id: 3,
+      name: "2010 Lamborghini Murcielago LP670-4 SV",
+      desc:
+      "Acceleration:Good / Breaks:Good / Handling:Good",
+      color: "#FFC300",
+      imgFloorUrl: floorImg,
+      imgUrl: sup8,
+      topSpeed: 124,
+      slots: 4,
+      seats:2,
+      Price: 2999990,
+      bckgHeight: 340,
+      carShadowHeight: 150,
+      shadowOpacity: 0.5 },
+
 {
-  id: 3,
+  id: 4,
   name: "2014 Ferrari LaFerrari",
   desc:
   "Acceleration:Good / Brakes:Good / Handling:Good",
   color: "#FFFFFF",
   imgFloorUrl: floorImg,
   imgUrl: sup3,
-  topSpeed: 110,
+  topSpeed: 120,
   slots: 4,
   seats:2,
   Price: 7599999,
@@ -73,13 +89,13 @@ const slides = [
 
 
   {
-      id: 4,
+      id: 5,
       name: "2016 Lykan Hypersport",
       desc: "Acceleration:Good / Breaks:Good / Handling:Good",
       color: "#FFFFFF",
       imgFloorUrl: floorImg,
       imgUrl: sup4,
-      topSpeed: 105,
+      topSpeed: 120,
       slots: 4,
       seats:2,
       Price: 6759999,
@@ -87,21 +103,6 @@ const slides = [
       carShadowHeight: 300,
       shadowOpacity: 0.2 },
 
-  {
-    id: 5,
-    name: "2010 Lamborghini Gallardo LP570-4",
-    desc:
-    "Acceleration:Okay / Breaks:Bad / Handling:Okay",
-    color: "#FFFFFF",
-    imgFloorUrl: floorImg,
-    imgUrl: sup5,
-    topSpeed: 105,
-    slots: 4,
-    seats:2,
-    Price: 1599990,
-    bckgHeight: 340,
-    carShadowHeight: 150,
-    shadowOpacity: 0.5 },
 
     {
       id: 6,
@@ -111,7 +112,7 @@ const slides = [
       color: "#FFFFFF",
       imgFloorUrl: floorImg,
       imgUrl: sup6,
-      topSpeed: 105,
+      topSpeed: 119,
       slots: 4,
       seats:2,
       Price: 2199990,
@@ -127,7 +128,7 @@ const slides = [
         color: "#FFFFFF",
         imgFloorUrl: floorImg,
         imgUrl: sup7,
-        topSpeed: 105,
+        topSpeed: 119,
         slots: 4,
         seats:2,
         Price: 1019999,
@@ -135,31 +136,67 @@ const slides = [
         carShadowHeight: 150,
         shadowOpacity: 0.5 },
 
+
+
         {
           id: 8,
-          name: "2010 Lamborghini Murcielago LP670-4 SV",
+          name: "★ 2005 Ford GT",
           desc:
-          "Acceleration:Good / Breaks:Good / Handling:Good",
+          "★ Premium Only ★ Acceleration:Good / Breaks:Good / Handling:Okay",
           color: "#FFC300",
           imgFloorUrl: floorImg,
-          imgUrl: sup8,
-          topSpeed: 105,
+          imgUrl: sup11,
+          topSpeed: 119,
           slots: 4,
           seats:2,
-          Price: 2999990,
+          Price: 959999,
           bckgHeight: 340,
           carShadowHeight: 150,
           shadowOpacity: 0.5 },
 
+
+        {
+          id: 9,
+          name: "2010 Lamborghini Gallardo LP570-4",
+          desc:
+          "Acceleration:Okay / Breaks:Bad / Handling:Okay",
+          color: "#FFFFFF",
+          imgFloorUrl: floorImg,
+          imgUrl: sup5,
+          topSpeed: 117,
+          slots: 4,
+          seats:2,
+          Price: 1599990,
+          bckgHeight: 340,
+          carShadowHeight: 150,
+          shadowOpacity: 0.5 },
+
+
+          {
+            id: 10,
+            name: "2010 Lamborghini Murcielago",
+            desc:
+            "Acceleration:Okay / Breaks:Okay / Handling:Bad",
+            color: "#FFFFFF",
+            imgFloorUrl: floorImg,
+            imgUrl: sup10,
+            topSpeed: 117,
+            slots: 4,
+            seats:2,
+            Price: 3199990,
+            bckgHeight: 340,
+            carShadowHeight: 150,
+            shadowOpacity: 0.5 },
+
             {
-              id: 9,
+              id: 11,
               name: "2014 Ferrari 458",
               desc:
               "Acceleration:Okay / Breaks:Okay / Handling:Okay",
               color: "#FFFFFF",
               imgFloorUrl: floorImg,
               imgUrl: sup9,
-              topSpeed: 100,
+              topSpeed: 110,
               slots: 4,
               seats:2,
               Price: 799999,
@@ -168,37 +205,6 @@ const slides = [
               shadowOpacity: 0.5 },
 
 
-              {
-                id: 10,
-                name: "2010 Lamborghini Murcielago",
-                desc:
-                "Acceleration:Okay / Breaks:Okay / Handling:Bad",
-                color: "#FFFFFF",
-                imgFloorUrl: floorImg,
-                imgUrl: sup10,
-                topSpeed: 100,
-                slots: 4,
-                seats:2,
-                Price: 3199990,
-                bckgHeight: 340,
-                carShadowHeight: 150,
-                shadowOpacity: 0.5 },
-
-              {
-                id: 11,
-                name: "★ 2005 Ford GT",
-                desc:
-                "★ Premium Only ★ Acceleration:Good / Breaks:Good / Handling:Okay",
-                color: "#FFC300",
-                imgFloorUrl: floorImg,
-                imgUrl: sup11,
-                topSpeed: 100,
-                slots: 4,
-                seats:2,
-                Price: 959999,
-                bckgHeight: 340,
-                carShadowHeight: 150,
-                shadowOpacity: 0.5 },
                 {
                   id: 12,
                   name: "★ 2006 Lamborghini Miura Concept",
@@ -207,7 +213,7 @@ const slides = [
                   color: "#FFC300",
                   imgFloorUrl: floorImg,
                   imgUrl: sup12,
-                  topSpeed: 100,
+                  topSpeed: 110,
                   slots: 4,
                   seats:2,
                   Price: 915999,
@@ -223,7 +229,7 @@ const slides = [
                     color: "#FFFFFF",
                     imgFloorUrl: floorImg,
                     imgUrl: sup13,
-                    topSpeed: 90,
+                    topSpeed: 110,
                     slots: 4,
                     seats:2,
                     Price: 899999,
@@ -240,7 +246,7 @@ const slides = [
                       color: "#FFC300",
                       imgFloorUrl: floorImg,
                       imgUrl: sup14,
-                      topSpeed: 90,
+                      topSpeed: 105,
                       slots: 4,
                       seats:2,
                       Price: 1800200,
@@ -257,7 +263,7 @@ const slides = [
                         color: "#FFFFFF",
                         imgFloorUrl: floorImg,
                         imgUrl: sup15,
-                        topSpeed: 85,
+                        topSpeed: 100,
                         slots: 4,
                         seats:2,
                         Price: 2599990,
@@ -273,7 +279,7 @@ const slides = [
                       color: "#FFC300",
                       imgFloorUrl: floorImg,
                       imgUrl: sup16,
-                      topSpeed: 85,
+                      topSpeed: 100,
                       slots: 4,
                       seats:4,
                       Price: 1000000,

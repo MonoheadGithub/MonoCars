@@ -28,7 +28,7 @@ const slides = [
     color: "#FFC300",
     imgFloorUrl: floorImg,
     imgUrl: sed1,
-    topSpeed: 100,
+    topSpeed: 119,
     slots: 4,
     seats:4,
     Price: 429999,
@@ -43,7 +43,7 @@ const slides = [
       color: "#FFFFFF",
       imgFloorUrl: floorImg,
       imgUrl: sed2,
-      topSpeed: 95,
+      topSpeed: 108,
       slots: 4,
       seats:4,
       Price: 94599,
@@ -52,14 +52,30 @@ const slides = [
       shadowOpacity: 0.2 },
 
 
+      {
+          id: 3,
+          name: "2011 Volvo S60R",
+          desc: "Acceleration:Okay / Breaks:Okay / Handling:Good",
+          color: "#FFFFFF",
+          imgFloorUrl: floorImg,
+          imgUrl: sed4,
+          topSpeed: 107,
+          slots: 4,
+          seats:4,
+          Price: 74999,
+          bckgHeight: 300,
+          carShadowHeight: 300,
+          shadowOpacity: 0.2 },
+
+
   {
-    id: 3,
+    id: 4,
     name: "1987 Volvo 242 Turbo",
     desc: "Acceleration:Okay / Brakes:Okay / Handling:Okay",
     color: "#FFFFFF",
     imgFloorUrl: floorImg,
     imgUrl: sed3,
-    topSpeed: 85,
+    topSpeed: 96,
     slots: 4,
     seats:4,
     Price: 9790,
@@ -68,46 +84,15 @@ const slides = [
     shadowOpacity: 0.2 },
 
 
-  {
-      id: 4,
-      name: "2011 Volvo S60R",
-      desc: "Acceleration:Okay / Breaks:Okay / Handling:Good",
-      color: "#FFFFFF",
-      imgFloorUrl: floorImg,
-      imgUrl: sed4,
-      topSpeed: 85,
-      slots: 4,
-      seats:4,
-      Price: 74999,
-      bckgHeight: 300,
-      carShadowHeight: 300,
-      shadowOpacity: 0.2 },
-
-  {
-    id: 5,
-    name: "1996 Chevrolet Impala SS",
-    desc:
-    "Acceleration:Okay / Breaks:Good / Handling:Bad",
-    color: "#FFFFFF",
-    imgFloorUrl: floorImg,
-    imgUrl: sed5,
-    topSpeed: 80,
-    slots: 4,
-    seats:4,
-    Price: 25599,
-    bckgHeight: 340,
-    carShadowHeight: 150,
-    shadowOpacity: 0.5 },
-
     {
-      id: 6,
+      id: 5,
       name: "1995 BMW M5 E34",
       desc:
       "Acceleration:Okay / Breaks:Okay / Handling:Okay",
       color: "#FFFFFF",
       imgFloorUrl: floorImg,
       imgUrl: sed6,
-      topSpeed: 80,
+      topSpeed: 96,
       slots: 4,
       seats:4,
       Price: 37999,
@@ -115,54 +100,73 @@ const slides = [
       carShadowHeight: 150,
       shadowOpacity: 0.5 },
 
+
       {
-        id: 7,
-        name: "2010 Subaru Legacy GT",
+        id: 6,
+        name: "2009 Mazda Speed 3 Sport",
         desc:
-        "Acceleration:Okay / Breaks:Good / Handling:Okay",
+        "Acceleration:Okay / Breaks:Okay / Handling:Okay",
         color: "#FFFFFF",
         imgFloorUrl: floorImg,
-        imgUrl: sed7,
-        topSpeed: 75,
+        imgUrl: sed9,
+        topSpeed: 90,
         slots: 4,
         seats:4,
-        Price: 89999,
+        Price: 39999,
         bckgHeight: 340,
         carShadowHeight: 150,
         shadowOpacity: 0.5 },
 
-        {
-          id: 8,
-          name: "2016 BMW 340i",
-          desc:
-          "Acceleration:Okay / Breaks:Okay / Handling:Good",
-          color: "#FFFFFF",
-          imgFloorUrl: floorImg,
-          imgUrl: sed8,
-          topSpeed: 75,
-          slots: 4,
-          seats:4,
-          Price: 242999,
-          bckgHeight: 340,
-          carShadowHeight: 150,
-          shadowOpacity: 0.5 },
 
-          {
-            id: 9,
-            name: "2009 Mazda Speed 3 Sport",
-            desc:
-            "Acceleration:Okay / Breaks:Okay / Handling:Okay",
-            color: "#FFFFFF",
-            imgFloorUrl: floorImg,
-            imgUrl: sed9,
-            topSpeed: 75,
-            slots: 4,
-            seats:4,
-            Price: 39999,
-            bckgHeight: 340,
-            carShadowHeight: 150,
-            shadowOpacity: 0.5 },
+              {
+                id: 7,
+                name: "2010 Subaru Legacy GT",
+                desc:
+                "Acceleration:Okay / Breaks:Good / Handling:Okay",
+                color: "#FFFFFF",
+                imgFloorUrl: floorImg,
+                imgUrl: sed7,
+                topSpeed: 87,
+                slots: 4,
+                seats:4,
+                Price: 89999,
+                bckgHeight: 340,
+                carShadowHeight: 150,
+                shadowOpacity: 0.5 },
 
+
+
+                        {
+                          id: 8,
+                          name: "2016 BMW 340i",
+                          desc:
+                          "Acceleration:Okay / Breaks:Okay / Handling:Good",
+                          color: "#FFFFFF",
+                          imgFloorUrl: floorImg,
+                          imgUrl: sed8,
+                          topSpeed: 87,
+                          slots: 4,
+                          seats:4,
+                          Price: 242999,
+                          bckgHeight: 340,
+                          carShadowHeight: 150,
+                          shadowOpacity: 0.5 },
+
+  {
+    id: 9,
+    name: "1996 Chevrolet Impala SS",
+    desc:
+    "Acceleration:Okay / Breaks:Good / Handling:Bad",
+    color: "#FFFFFF",
+    imgFloorUrl: floorImg,
+    imgUrl: sed5,
+    topSpeed: 81,
+    slots: 4,
+    seats:4,
+    Price: 25599,
+    bckgHeight: 340,
+    carShadowHeight: 150,
+    shadowOpacity: 0.5 },
 
             {
               id: 10,
@@ -172,7 +176,7 @@ const slides = [
               color: "#FFC300",
               imgFloorUrl: floorImg,
               imgUrl: sed10,
-              topSpeed: 65,
+              topSpeed: 75,
               slots: 4,
               seats:5,
               Price: 250000,

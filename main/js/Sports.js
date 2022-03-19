@@ -10,9 +10,9 @@ defualtcarImg = 'https://i.imgur.com/wAgJX0S.png',
 spo1 = 'https://i.imgur.com/dXKqEs6.png';
 spo2 = 'https://i.imgur.com/JLE9CG2.png';
 spo3 = 'https://i.imgur.com/wEYEyDI.png';
-spo4 = 'https://i.imgur.com/JazRmDv.png';
-spo5 = 'https://i.imgur.com/cSGdzA4.png';
-spo6 = 'https://i.imgur.com/w4pkPQK.png';
+spo4 = 'https://i.imgur.com/cSGdzA4.png';
+spo5 = 'https://i.imgur.com/w4pkPQK.png';
+spo6 = 'https://i.imgur.com/JazRmDv.png';
 spo7 = 'https://i.imgur.com/OY6no7i.png';
 spo8 = 'https://i.imgur.com/G1OxnUR.png';
 spo9 = 'https://i.imgur.com/uz7WY5u.png';
@@ -43,7 +43,7 @@ const slides = [
   color: "#FFFFFF",
   imgFloorUrl: floorImg,
   imgUrl: spo1,
-  topSpeed: 140,
+  topSpeed: 150,
   slots: 4,
   seats:4,
   Price: 1155999,
@@ -58,7 +58,7 @@ const slides = [
     color: "#FFFFFF",
     imgFloorUrl: floorImg,
     imgUrl: spo2,
-    topSpeed: 170,
+    topSpeed: 150,
     slots: 4,
     seats:4,
     Price: 669999,
@@ -74,7 +74,7 @@ const slides = [
   color: "#FFC300",
   imgFloorUrl: floorImg,
   imgUrl: spo3,
-  topSpeed: 110,
+  topSpeed: 124,
   slots: 4,
   seats:2,
   Price: 875999,
@@ -82,31 +82,15 @@ const slides = [
   carShadowHeight: 250,
   shadowOpacity: 0.2 },
 
-
   {
-      id: 4,
-      name: "★ 2002 Nissan Skyline R34",
-      desc: "★ Premium Only ★ Acceleration:Okay / Breaks:Bad / Handling:Okay",
-      color: "#FFC300",
-      imgFloorUrl: floorImg,
-      imgUrl: spo4,
-      topSpeed: 100,
-      slots: 4,
-      seats:4,
-      Price: 493999,
-      bckgHeight: 300,
-      carShadowHeight: 300,
-      shadowOpacity: 0.2 },
-
-  {
-    id: 5,
+    id: 4,
     name: "2015 Audi R8 V10 Plus",
     desc:
     "Acceleration:Good / Breaks:Good / Handling:Good",
     color: "#FFFFFF",
     imgFloorUrl: floorImg,
-    imgUrl: spo5,
-    topSpeed: 100,
+    imgUrl: spo4,
+    topSpeed: 114,
     slots: 4,
     seats:2,
     Price: 849999,
@@ -114,15 +98,16 @@ const slides = [
     carShadowHeight: 150,
     shadowOpacity: 0.5 },
 
+
     {
-      id: 6,
+      id: 5,
       name: "2012 Porsche 997 GT3",
       desc:
       "Acceleration:Good / Breaks:Okay / Handling:Okay",
       color: "#FFFFFF",
       imgFloorUrl: floorImg,
-      imgUrl: spo6,
-      topSpeed: 100,
+      imgUrl: spo5,
+      topSpeed: 113,
       slots: 4,
       seats:2,
       Price: 475999,
@@ -130,142 +115,33 @@ const slides = [
       carShadowHeight: 150,
       shadowOpacity: 0.5 },
 
-      {
-        id: 7,
-        name: "2012 Aston Martin DBS",
-        desc:
-        "Acceleration:Okay / Breaks:Okay / Handling:Good",
-        color: "#FFFFFF",
-        imgFloorUrl: floorImg,
-        imgUrl: spo7,
-        topSpeed: 100,
-        slots: 4,
-        seats:4,
-        Price: 799999,
-        bckgHeight: 340,
-        carShadowHeight: 150,
-        shadowOpacity: 0.5 },
-        {
-          id: 8,
-          name: "2016 BMW M6",
-          desc:
-          "Acceleration:Okay / Breaks:Okay / Handling:Good",
-          color: "#FFFFFF",
-          imgFloorUrl: floorImg,
-          imgUrl: spo8,
-          topSpeed: 95,
-          slots: 4,
-          seats:4,
-          Price: 289999,
-          bckgHeight: 340,
-          carShadowHeight: 150,
-          shadowOpacity: 0.5 },
-
-            {
-              id: 9,
-              name: "★ 2013 Nissan GT-R Black Edition",
-              desc:
-              "★ Premium Only ★ Acceleration:Good / Breaks:Okay / Handling:Good",
-              color: "#FFC300",
-              imgFloorUrl: floorImg,
-              imgUrl: spo9,
-              topSpeed: 95,
-              slots: 4,
-              seats:4,
-              Price: 329999,
-              bckgHeight: 340,
-              carShadowHeight: 150,
-              shadowOpacity: 0.5 },
-
-
-              {
-                id: 10,
-                name: "2013 Subaru BRZ",
-                desc:
-                "Acceleration:Okay / Breaks:Okay / Handling:Okay",
-                color: "#FFFFFF",
-                imgFloorUrl: floorImg,
-                imgUrl: spo10,
-                topSpeed: 95,
-                slots: 4,
-                seats:4,
-                Price: 99999,
-                bckgHeight: 340,
-                carShadowHeight: 150,
-                shadowOpacity: 0.5 },
-
-              {
-                id: 11,
-                name: "1987 Ferrari F40",
-                desc:
-                "Acceleration:Good / Breaks:Okay / Handling:Good",
-                color: "#FFFFFF",
-                imgFloorUrl: floorImg,
-                imgUrl: spo11,
-                topSpeed: 95,
-                slots: 4,
-                seats:2,
-                Price: 859999,
-                bckgHeight: 340,
-                carShadowHeight: 150,
-                shadowOpacity: 0.5 },
-                {
-                  id: 12,
-                  name: "2009 Chevrolet Corvette GSC",
-                  desc:
-                  "Acceleration:Okay / Breaks:Bad / Handling:Good",
-                  color: "#FFFFFF",
-                  imgFloorUrl: floorImg,
-                  imgUrl: spo12,
-                  topSpeed: 90,
-                  slots: 4,
-                  seats:2,
-                  Price: 399999,
-                  bckgHeight: 340,
-                  carShadowHeight: 150,
-                  shadowOpacity: 0.5 },
 
                   {
-                    id: 13,
-                    name: "2015 Audi R8",
+                    id: 6,
+                    name: "★ 2013 Nissan GT-R Black Edition",
                     desc:
-                    "Acceleration:Okay / Breaks:Okay / Handling:Okay",
-                    color: "#FFFFFF",
+                    "★ Premium Only ★ Acceleration:Good / Breaks:Okay / Handling:Good",
+                    color: "#FFC300",
                     imgFloorUrl: floorImg,
-                    imgUrl: spo13,
-                    topSpeed: 90,
+                    imgUrl: spo9,
+                    topSpeed: 112,
                     slots: 4,
-                    seats:2,
-                    Price: 447999,
+                    seats:4,
+                    Price: 329999,
                     bckgHeight: 340,
                     carShadowHeight: 150,
                     shadowOpacity: 0.5 },
 
 
                     {
-                      id: 14,
-                      name: "2009 Nissan 370Z",
-                      desc:
-                      "Aceleration:Okay / Breaks:Okay / Handling:Okay",
-                      color: "#FFFFFF",
-                      imgFloorUrl: floorImg,
-                      imgUrl: spo14,
-                      topSpeed: 90,
-                      slots: 4,
-                      seats:2,
-                      Price: 112999,
-                      bckgHeight: 340,
-                      carShadowHeight: 150,
-                      shadowOpacity: 0.5 },
-                    {
-                      id: 15,
+                      id: 7,
                       name: "2015 Audi R8 Spyder",
                       desc:
                       "Acceleration:Okay / Breaks:Okay / Handling:Good",
                       color: "#FFFFFF",
                       imgFloorUrl: floorImg,
                       imgUrl: spo15,
-                      topSpeed: 90,
+                      topSpeed: 111,
                       slots: 4,
                       seats:2,
                       Price: 500000,
@@ -273,42 +149,171 @@ const slides = [
                       carShadowHeight: 150,
                       shadowOpacity: 0.5 },
 
+                      {
+                        id: 8,
+                        name: "2012 Aston Martin DBS",
+                        desc:
+                        "Acceleration:Okay / Breaks:Okay / Handling:Good",
+                        color: "#FFFFFF",
+                        imgFloorUrl: floorImg,
+                        imgUrl: spo7,
+                        topSpeed: 111, //111
+                        slots: 4,
+                        seats:4,
+                        Price: 799999,
+                        bckgHeight: 340,
+                        carShadowHeight: 150,
+                        shadowOpacity: 0.5 },
+
+                        {
+                          id: 9,
+                          name: "2013 Subaru BRZ",
+                          desc:
+                          "Acceleration:Okay / Breaks:Okay / Handling:Okay",
+                          color: "#FFFFFF",
+                          imgFloorUrl: floorImg,
+                          imgUrl: spo10,
+                          topSpeed: 110,
+                          slots: 4,
+                          seats:4,
+                          Price: 99999,
+                          bckgHeight: 340,
+                          carShadowHeight: 150,
+                          shadowOpacity: 0.5 },
+
+                          {
+                            id: 10,
+                            name: "1987 Ferrari F40",
+                            desc:
+                            "Acceleration:Good / Breaks:Okay / Handling:Good",
+                            color: "#FFFFFF",
+                            imgFloorUrl: floorImg,
+                            imgUrl: spo11,
+                            topSpeed: 110,
+                            slots: 4,
+                            seats:2,
+                            Price: 859999,
+                            bckgHeight: 340,
+                            carShadowHeight: 150,
+                            shadowOpacity: 0.5 },
+
+                            {
+                              id: 11,
+                              name: "2009 Chevrolet Corvette GSC",
+                              desc:
+                              "Acceleration:Okay / Breaks:Bad / Handling:Good",
+                              color: "#FFFFFF",
+                              imgFloorUrl: floorImg,
+                              imgUrl: spo12,
+                              topSpeed: 108,
+                              slots: 4,
+                              seats:2,
+                              Price: 399999,
+                              bckgHeight: 340,
+                              carShadowHeight: 150,
+                              shadowOpacity: 0.5 },
+
+
+  {
+      id: 12,
+      name: "★ 2002 Nissan Skyline R34",
+      desc: "★ Premium Only ★ Acceleration:Okay / Breaks:Bad / Handling:Okay",
+      color: "#FFC300",
+      imgFloorUrl: floorImg,
+      imgUrl: spo6,
+      topSpeed: 108,
+      slots: 4,
+      seats:4,
+      Price: 493999,
+      bckgHeight: 300,
+      carShadowHeight: 300,
+      shadowOpacity: 0.2 },
+
+
+                        {
+                          id: 13,
+                          name: "2015 Audi R8",
+                          desc:
+                          "Acceleration:Okay / Breaks:Okay / Handling:Okay",
+                          color: "#FFFFFF",
+                          imgFloorUrl: floorImg,
+                          imgUrl: spo13,
+                          topSpeed: 108,
+                          slots: 4,
+                          seats:2,
+                          Price: 447999,
+                          bckgHeight: 340,
+                          carShadowHeight: 150,
+                          shadowOpacity: 0.5 },
+
+        {
+          id: 14,
+          name: "2016 BMW M6",
+          desc:
+          "Acceleration:Okay / Breaks:Okay / Handling:Good",
+          color: "#FFFFFF",
+          imgFloorUrl: floorImg,
+          imgUrl: spo8,
+          topSpeed: 108,
+          slots: 4,
+          seats:4,
+          Price: 289999,
+          bckgHeight: 340,
+          carShadowHeight: 150,
+          shadowOpacity: 0.5 },
+
+
+
+
+                    {
+                      id: 15,
+                      name: "2009 Nissan 370Z",
+                      desc:
+                      "Aceleration:Okay / Breaks:Okay / Handling:Okay",
+                      color: "#FFFFFF",
+                      imgFloorUrl: floorImg,
+                      imgUrl: spo14,
+                      topSpeed: 101,
+                      slots: 4,
+                      seats:2,
+                      Price: 112999,
+                      bckgHeight: 340,
+                      carShadowHeight: 150,
+                      shadowOpacity: 0.5 },
 
 
                       {
                         id: 16,
+                        name: "2009 Nissan 350Z",
+                        desc:
+                        "Acceleration:Okay / Breaks:Okay / Handling:Good",
+                        color: "#FFFFFF",
+                        imgFloorUrl: floorImg,
+                        imgUrl: spo17,
+                        topSpeed: 99,
+                        slots: 4,
+                        seats:2,
+                        Price: 197999,
+                        bckgHeight: 340,
+                        carShadowHeight: 150,
+                        shadowOpacity: 0.5 },
+
+
+                      {
+                        id: 17,
                         name: "2004 BMW M3 GTR",
                         desc:
                         "Acceleration:Okay / Breaks:Okay / Handling:Okay",
                         color: "#FFFFFF",
                         imgFloorUrl: floorImg,
                         imgUrl: spo16,
-                        topSpeed: 85,
+                        topSpeed: 97,
                         slots: 4,
                         seats:2,
                         Price: 144599,
                         bckgHeight: 340,
                         carShadowHeight: 150,
                         shadowOpacity: 0.5 },
-
-
-                        {
-                          id: 17,
-                          name: "2009 Nissan 350Z",
-                          desc:
-                          "Acceleration:Okay / Breaks:Okay / Handling:Good",
-                          color: "#FFFFFF",
-                          imgFloorUrl: floorImg,
-                          imgUrl: spo17,
-                          topSpeed: 80,
-                          slots: 4,
-                          seats:2,
-                          Price: 197999,
-                          bckgHeight: 340,
-                          carShadowHeight: 150,
-                          shadowOpacity: 0.5 },
-
-
 
 
                         {
@@ -319,7 +324,7 @@ const slides = [
                           color: "#FFC300",
                           imgFloorUrl: floorImg,
                           imgUrl: spo18,
-                          topSpeed: 80,
+                          topSpeed: 90,
                           slots: 4,
                           seats:4,
                           Price: 152999,
@@ -329,6 +334,72 @@ const slides = [
 
                           {
                             id: 19,
+                            name: "1999 Toyota MR2 GT",
+                            desc:
+                            "Aceleration:Bad / Breaks:Okay / Handling:Okay",
+                            color: "#FFFFFF",
+                            imgFloorUrl: floorImg,
+                            imgUrl: spo22,
+                            topSpeed: 88,
+                            slots: 4,
+                            seats:2,
+                            Price: 38500,
+                            bckgHeight: 340,
+                            carShadowHeight: 150,
+                            shadowOpacity: 0.5 },
+
+                            {
+                              id: 20,
+                              name: "2006 Mazda RX-8 GT",
+                              desc:
+                              "Aceleration:Bad / Breaks:Okay / Handling:Okay",
+                              color: "#FFFFFF",
+                              imgFloorUrl: floorImg,
+                              imgUrl: spo28,
+                              topSpeed: 86,
+                              slots: 4,
+                              seats:4,
+                              Price: 69999,
+                              bckgHeight: 340,
+                              carShadowHeight: 150,
+                              shadowOpacity: 0.5 },
+
+
+                              {
+                                id: 21,
+                                name: "★ 2009 Honda S2000",
+                                desc:
+                                "★ Premium Only ★ Aceleration:Bad / Breaks:Bad / Handling:Okay",
+                                color: "#FFC300",
+                                imgFloorUrl: floorImg,
+                                imgUrl: spo23,
+                                topSpeed: 85,
+                                slots: 4,
+                                seats:2,
+                                Price: 42999,
+                                bckgHeight: 340,
+                                carShadowHeight: 150,
+                                shadowOpacity: 0.5 },
+
+
+                                {
+                                  id: 22,
+                                  name: "2007 Mazda MX-5",
+                                  desc:
+                                  "Aceleration:Bad / Breaks:Okay / Handling:Okay",
+                                  color: "#FFFFFF",
+                                  imgFloorUrl: floorImg,
+                                  imgUrl: spo25,
+                                  topSpeed: 85,
+                                  slots: 4,
+                                  seats:2,
+                                  Price: 64999,
+                                  bckgHeight: 340,
+                                  carShadowHeight: 150,
+                                  shadowOpacity: 0.5 },
+
+                          {
+                            id: 23,
                             name: "1981 BMW M1",
                             desc:
                             "Aceleration:Bad / Breaks:Good / Handling:Okay",
@@ -343,24 +414,9 @@ const slides = [
                             carShadowHeight: 150,
                             shadowOpacity: 0.5 },
 
-                            {
-                              id: 20,
-                              name: "2000 Nissan Skyline GTR (Disabled)",
-                              desc:
-                              "Aceleration:Good / Breaks:Good / Handling:Good",
-                              color: "red",
-                              imgFloorUrl: floorImg,
-                              imgUrl: spo20,
-                              topSpeed: 80,
-                              slots: 4,
-                              seats:1,
-                              Price: 239999,
-                              bckgHeight: 340,
-                              carShadowHeight: 150,
-                              shadowOpacity: 0.5 },
 
                               {
-                                id: 21,
+                                id: 24,
                                 name: "2007 Audi TT",
                                 desc:
                                 "Aceleration:Okay / Breaks:Okay / Handling:Okay",
@@ -375,40 +431,11 @@ const slides = [
                                 carShadowHeight: 150,
                                 shadowOpacity: 0.5 },
 
-                                {
-                                  id: 22,
-                                  name: "1999 Toyota MR2 GT",
-                                  desc:
-                                  "Aceleration:Bad / Breaks:Okay / Handling:Okay",
-                                  color: "#FFFFFF",
-                                  imgFloorUrl: floorImg,
-                                  imgUrl: spo22,
-                                  topSpeed: 75,
-                                  slots: 4,
-                                  seats:2,
-                                  Price: 38500,
-                                  bckgHeight: 340,
-                                  carShadowHeight: 150,
-                                  shadowOpacity: 0.5 },
 
-                                  {
-                                    id: 23,
-                                    name: "★ 2009 Honda S2000",
-                                    desc:
-                                    "★ Premium Only ★ Aceleration:Bad / Breaks:Bad / Handling:Okay",
-                                    color: "#FFC300",
-                                    imgFloorUrl: floorImg,
-                                    imgUrl: spo23,
-                                    topSpeed: 75,
-                                    slots: 4,
-                                    seats:2,
-                                    Price: 42999,
-                                    bckgHeight: 340,
-                                    carShadowHeight: 150,
-                                    shadowOpacity: 0.5 },
+
 
                                     {
-                                      id: 24,
+                                      id: 25,
                                       name: "2011 Bentley Continental GT",
                                       desc:
                                       "Aceleration:Okay / Breaks:Good / Handling:Good",
@@ -424,24 +451,24 @@ const slides = [
                                       shadowOpacity: 0.5 },
 
                                       {
-                                        id: 25,
-                                        name: "2007 Mazda MX-5",
+                                        id: 26,
+                                        name: "2002 Nissan Silvia S15",
                                         desc:
-                                        "Aceleration:Bad / Breaks:Okay / Handling:Okay",
+                                        "Aceleration:Okay / Breaks:Okay / Handling:Okay",
                                         color: "#FFFFFF",
                                         imgFloorUrl: floorImg,
-                                        imgUrl: spo25,
-                                        topSpeed: 70,
+                                        imgUrl: spo27,
+                                        topSpeed: 75,
                                         slots: 4,
-                                        seats:2,
-                                        Price: 64999,
+                                        seats:4,
+                                        Price: 49999,
                                         bckgHeight: 340,
                                         carShadowHeight: 150,
                                         shadowOpacity: 0.5 },
 
 
                                         {
-                                          id: 26,
+                                            id: 27,
                                           name: "2002 Mazda RX-7 Type RS",
                                           desc:
                                           "Aceleration:Okay / Breaks:Good / Handling:Good",
@@ -456,39 +483,26 @@ const slides = [
                                           carShadowHeight: 150,
                                           shadowOpacity: 0.5 },
 
-
                                           {
-                                            id: 27,
-                                            name: "2002 Nissan Silvia S15",
+                                            id: 24,
+                                            name: "2000 Nissan Skyline GTR (Disabled)",
                                             desc:
-                                            "Aceleration:Okay / Breaks:Okay / Handling:Okay",
-                                            color: "#FFFFFF",
+                                            "Aceleration:Good / Breaks:Good / Handling:Good",
+                                            color: "red",
                                             imgFloorUrl: floorImg,
-                                            imgUrl: spo27,
-                                            topSpeed: 65,
+                                            imgUrl: spo20,
+                                            topSpeed: 0,
                                             slots: 4,
-                                            seats:4,
-                                            Price: 49999,
+                                            seats:1,
+                                            Price: 239999,
                                             bckgHeight: 340,
                                             carShadowHeight: 150,
                                             shadowOpacity: 0.5 },
 
 
-                                            {
-                                              id: 28,
-                                              name: "2006 Mazda RX-8 GT",
-                                              desc:
-                                              "Aceleration:Bad / Breaks:Okay / Handling:Okay",
-                                              color: "#FFFFFF",
-                                              imgFloorUrl: floorImg,
-                                              imgUrl: spo28,
-                                              topSpeed: 65,
-                                              slots: 4,
-                                              seats:4,
-                                              Price: 69999,
-                                              bckgHeight: 340,
-                                              carShadowHeight: 150,
-                                              shadowOpacity: 0.5 },
+
+
+
 ];
 
 

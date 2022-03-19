@@ -23,7 +23,7 @@ const slides = [
     color: "#FFC300",
     imgFloorUrl: floorImg,
     imgUrl: tr1,
-    topSpeed: 65,
+    topSpeed: 70,
     slots: 10,
     seats:5,
     Price: 79999,
@@ -38,7 +38,7 @@ const slides = [
       color: "#FFFFFF",
       imgFloorUrl: floorImg,
       imgUrl: tr2,
-      topSpeed: 60,
+      topSpeed: 65,
       slots: 20,
       seats:3,
       Price: 199999,
@@ -48,6 +48,38 @@ const slides = [
 
       {
         id: 3,
+        name: "2008 Ford F350 Superduty",
+        desc: "Acceleration:Bad / Brakes:Okay / Handling:Okay",
+        color: "#FFFFFF",
+        imgFloorUrl: floorImg,
+        imgUrl: tr4,
+        topSpeed: 65,
+        slots: 10,
+        seats:4,
+        Price: 135999,
+        bckgHeight: 300,
+        carShadowHeight: 300,
+        shadowOpacity: 0.2 },
+
+
+                  {
+                      id: 4,
+                      name: "★ 1969 Chevrolet C10",
+                      desc:
+                      "★ Premium Only ★ Acceleration:Okay / Brakes:Okay / Handling:Good",
+                      color: "#FFC300",
+                      imgFloorUrl: floorImg,
+                      imgUrl: tr5,
+                      topSpeed: 64,
+                      slots: 4,
+                      seats:3,
+                      Price: 145599,
+                      bckgHeight: 340,
+                      carShadowHeight: 200,
+                      shadowOpacity: 0.5 },
+
+      {
+        id: 5,
         name: "2009 Toyota Tundra Crewmax",
         desc: "Acceleration:Okay / Brakes:Good / Handling:Okay",
         color: "#FFFFFF",
@@ -61,36 +93,7 @@ const slides = [
         carShadowHeight: 300,
         shadowOpacity: 0.2 },
 
-        {
-          id: 4,
-          name: "2008 Ford F350 Superduty",
-          desc: "Acceleration:Bad / Brakes:Okay / Handling:Okay",
-          color: "#FFFFFF",
-          imgFloorUrl: floorImg,
-          imgUrl: tr4,
-          topSpeed: 60,
-          slots: 10,
-          seats:4,
-          Price: 135999,
-          bckgHeight: 300,
-          carShadowHeight: 300,
-          shadowOpacity: 0.2 },
 
-          {
-              id: 5,
-              name: "★ 1969 Chevrolet C10",
-              desc:
-              "★ Premium Only ★ Acceleration:Okay / Brakes:Okay / Handling:Good",
-              color: "#FFC300",
-              imgFloorUrl: floorImg,
-              imgUrl: tr5,
-              topSpeed: 60,
-              slots: 4,
-              seats:3,
-              Price: 145599,
-              bckgHeight: 340,
-              carShadowHeight: 200,
-              shadowOpacity: 0.5 },
 
 ];
 

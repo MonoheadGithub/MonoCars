@@ -19,93 +19,65 @@ c12 = 'https://i.imgur.com/avTaDIa.png';
 c13 = 'https://i.imgur.com/RsFZpbp.png';
 c14 = 'https://i.imgur.com/v5FoSkX.png';
 const slides = [
+
+  {
+    id: 1,
+    name: "2008 Subaru Impreza WRX STi",
+    desc:
+    "Acceleration:Okay / Breaks:Okay / Handling:Good",
+    color: "#FFFFFF",
+    imgFloorUrl: floorImg,
+    imgUrl: c7,
+    topSpeed: 101,
+    slots: 4,
+    seats:4,
+    Price: 75999,
+    bckgHeight: 340,
+    carShadowHeight: 150,
+    shadowOpacity: 0.5 },
+
 {
-  id: 1,
+  id: 2,
   name: "2016 BMW 1 Series M",
   desc: "Acceleration:Bad / Brakes:Bad / Handling:Okay",
   color: "#F0F0F0",
   imgFloorUrl: floorImg,
   imgUrl: c1,
-  topSpeed: 85,
+  topSpeed: 97,
   slots: 4,
   seats:4,
   Price: 78999,
   bckgHeight: 300,
   carShadowHeight: 300,
   shadowOpacity: 0.2 },
-{
-    id: 2,
-    name: "1999 Mitsubishi Lancer GSR Evolution",
-    desc:
-    "Acceleration:Good / Brakes:Bad / Handling:Good",
-    color: "#FFFFFF",
-    imgFloorUrl: floorImg,
-    imgUrl: c2,
-    topSpeed: 80,
-    slots: 4,
-    seats:4,
-    Price: 62000,
-    bckgHeight: 340,
-    carShadowHeight: 150,
-    shadowOpacity: 0.5 },
-
-{
-  id: 3,
-  name: " ♦ 2005 Volkswagen Golf R32",
-  desc:
-  "♦ Starter Friendly ♦ Acceleration:Good / Brakes:Good / Handling:Good",
-  color: "#78ECCC",
-  imgFloorUrl: floorImg,
-  imgUrl: c3,
-  topSpeed: 80,
-  slots: 4,
-  seats:4,
-  Price: 45999,
-  bckgHeight: 300,
-  carShadowHeight: 250,
-  shadowOpacity: 0.2 },
 
 
   {
-      id: 4,
-      name: "2011 Ford Focus RS",
-      desc: "Acceleration:Okay / Breaks:Bad / Handling:Okay",
-      color: "#FFFFFF",
-      imgFloorUrl: floorImg,
-      imgUrl: defualtcarImg,
-      topSpeed: 80,
-      slots: 4,
-      seats:4,
-      Price: 35999,
-      bckgHeight: 300,
-      carShadowHeight: 300,
-      shadowOpacity: 0.2 },
-
-  {
-    id: 5,
-    name: "♦ 2015 Volkswagen Scirocco R",
+    id: 3,
+    name: " ♦ 2005 Volkswagen Golf R32",
     desc:
-    "♦ Starter Friendly ♦ Acceleration:Okay / Breaks:Okay / Handling:Okay",
+    "♦ Starter Friendly ♦ Acceleration:Good / Brakes:Good / Handling:Good",
     color: "#78ECCC",
     imgFloorUrl: floorImg,
-    imgUrl: c5,
-    topSpeed: 80,
+    imgUrl: c3,
+    topSpeed: 96,
     slots: 4,
     seats:4,
-    Price: 69999,
-    bckgHeight: 340,
-    carShadowHeight: 150,
-    shadowOpacity: 0.5 },
+    Price: 45999,
+    bckgHeight: 300,
+    carShadowHeight: 250,
+    shadowOpacity: 0.2 },
+
 
     {
-      id: 6,
+      id: 4,
       name: "1997 Volvo 850 R",
       desc:
       "Acceleration:Bad / Breaks:Bad / Handling:Bad",
       color: "#FF1F1F",
       imgFloorUrl: floorImg,
       imgUrl: c6,
-      topSpeed: 80,
+      topSpeed: 96,
       slots: 4,
       seats:4,
       Price: 10200,
@@ -113,21 +85,62 @@ const slides = [
       carShadowHeight: 150,
       shadowOpacity: 0.5 },
 
+
       {
-        id: 7,
-        name: "2008 Subaru Impreza WRX STi",
-        desc:
-        "Acceleration:Okay / Breaks:Okay / Handling:Good",
-        color: "#FFFFFF",
-        imgFloorUrl: floorImg,
-        imgUrl: c7,
-        topSpeed: 75,
-        slots: 4,
-        seats:4,
-        Price: 75999,
-        bckgHeight: 340,
-        carShadowHeight: 150,
-        shadowOpacity: 0.5 },
+          id: 5,
+          name: "2011 Ford Focus RS",
+          desc: "Acceleration:Okay / Breaks:Bad / Handling:Okay",
+          color: "#FFFFFF",
+          imgFloorUrl: floorImg,
+          imgUrl: defualtcarImg,
+          topSpeed: 95,
+          slots: 4,
+          seats:4,
+          Price: 35999,
+          bckgHeight: 300,
+          carShadowHeight: 300,
+          shadowOpacity: 0.2 },
+
+
+{
+    id: 6,
+    name: "1999 Mitsubishi Lancer GSR Evolution",
+    desc:
+    "Acceleration:Good / Brakes:Bad / Handling:Good",
+    color: "#FFFFFF",
+    imgFloorUrl: floorImg,
+    imgUrl: c2,
+    topSpeed: 95,
+    slots: 4,
+    seats:4,
+    Price: 62000,
+    bckgHeight: 340,
+    carShadowHeight: 150,
+    shadowOpacity: 0.5 },
+
+
+
+
+
+  {
+    id: 7,
+    name: "♦ 2015 Volkswagen Scirocco R",
+    desc:
+    "♦ Starter Friendly ♦ Acceleration:Okay / Breaks:Okay / Handling:Okay",
+    color: "#78ECCC",
+    imgFloorUrl: floorImg,
+    imgUrl: c5,
+    topSpeed: 90,
+    slots: 4,
+    seats:4,
+    Price: 69999,
+    bckgHeight: 340,
+    carShadowHeight: 150,
+    shadowOpacity: 0.5 },
+
+
+
+
         {
           id: 8,
           name: "♦ 2011 Honda Civic Type R",
@@ -136,7 +149,7 @@ const slides = [
           color: "#78ECCC",
           imgFloorUrl: floorImg,
           imgUrl: c8,
-          topSpeed: 70,
+          topSpeed: 85,
           slots: 4,
           seats:4,
           Price: 11799,
@@ -144,15 +157,48 @@ const slides = [
           carShadowHeight: 150,
           shadowOpacity: 0.5 },
 
+
+          {
+            id: 9,
+            name: "♦ 1997 Honda Civic Type R",
+            desc:
+            "♦ Starter Friendly ♦ Acceleration:Bad / Breaks:Okay / Handling:Okay",
+            color: "#78ECCC",
+            imgFloorUrl: floorImg,
+            imgUrl: c11,
+            topSpeed: 82,
+            slots: 4,
+            seats:4,
+            Price: 10899,
+            bckgHeight: 340,
+            carShadowHeight: 150,
+            shadowOpacity: 0.5 },
+
             {
-              id: 9,
+              id: 10,
+              name: "2011 Ford Focus SVT",
+              desc:
+              "Acceleration:Bad / Breaks:Bad / Handling:Okay",
+              color: "#FFFFFF",
+              imgFloorUrl: floorImg,
+              imgUrl: c9,
+              topSpeed: 81,
+              slots: 4,
+              seats:4,
+              Price: 19999,
+              bckgHeight: 340,
+              carShadowHeight: 150,
+              shadowOpacity: 0.5 },
+
+            {
+              id: 11,
               name: "♦ 1987 Shelby Omni GLHS",
               desc:
               "♦ Great Starter Car ♦ Acceleration:Good / Breaks:Good / Handling:Good",
               color: "#78ECCC",
               imgFloorUrl: floorImg,
               imgUrl: c10,
-              topSpeed: 65,
+              topSpeed: 75,
               slots: 4,
               seats:4,
               Price: 13599,
@@ -160,38 +206,6 @@ const slides = [
               carShadowHeight: 150,
               shadowOpacity: 0.5 },
 
-
-              {
-                id: 10,
-                name: "2011 Ford Focus SVT",
-                desc:
-                "Acceleration:Bad / Breaks:Bad / Handling:Okay",
-                color: "#FFFFFF",
-                imgFloorUrl: floorImg,
-                imgUrl: c9,
-                topSpeed: 65,
-                slots: 4,
-                seats:4,
-                Price: 19999,
-                bckgHeight: 340,
-                carShadowHeight: 150,
-                shadowOpacity: 0.5 },
-
-              {
-                id: 11,
-                name: "♦ 1997 Honda Civic Type R",
-                desc:
-                "♦ Starter Friendly ♦ Acceleration:Bad / Breaks:Okay / Handling:Okay",
-                color: "#78ECCC",
-                imgFloorUrl: floorImg,
-                imgUrl: c11,
-                topSpeed: 65,
-                slots: 4,
-                seats:4,
-                Price: 10899,
-                bckgHeight: 340,
-                carShadowHeight: 150,
-                shadowOpacity: 0.5 },
                 {
                   id: 12,
                   name: "1991 Honda CR-X SiR",
@@ -200,7 +214,7 @@ const slides = [
                   color: "#FFFFFF",
                   imgFloorUrl: floorImg,
                   imgUrl: c12,
-                  topSpeed: 60,
+                  topSpeed: 70,
                   slots: 4,
                   seats:4,
                   Price: 19999,
@@ -208,15 +222,32 @@ const slides = [
                   carShadowHeight: 150,
                   shadowOpacity: 0.5 },
 
+
                   {
                     id: 13,
+                    name: "2014 Toyota Prius XW30",
+                    desc:
+                    "Acceleration:Bad / Breaks:Okay / Handling:Okay",
+                    color: "#FFFFFF",
+                    imgFloorUrl: floorImg,
+                    imgUrl: c14,
+                    topSpeed: 62,
+                    slots: 4,
+                    seats:5,
+                    Price: 16999,
+                    bckgHeight: 340,
+                    carShadowHeight: 150,
+                    shadowOpacity: 0.5 },
+
+                  {
+                    id: 14,
                     name: "2011 Nissan Leaf",
                     desc:
                     "Acceleration:Okay / Breaks:Okay / Handling:Okay",
                     color: "#FFFFFF",
                     imgFloorUrl: floorImg,
                     imgUrl: c13,
-                    topSpeed: 50,
+                    topSpeed: 52,
                     slots: 4,
                     seats:4,
                     Price: 29999,
@@ -224,21 +255,7 @@ const slides = [
                     carShadowHeight: 150,
                     shadowOpacity: 0.5 },
 
-                    {
-                      id: 14,
-                      name: "2014 Toyota Prius XW30",
-                      desc:
-                      "Acceleration:Bad / Breaks:Okay / Handling:Okay",
-                      color: "#FFFFFF",
-                      imgFloorUrl: floorImg,
-                      imgUrl: c14,
-                      topSpeed: 45,
-                      slots: 4,
-                      seats:5,
-                      Price: 16999,
-                      bckgHeight: 340,
-                      carShadowHeight: 150,
-                      shadowOpacity: 0.5 },
+
 ];
 
 

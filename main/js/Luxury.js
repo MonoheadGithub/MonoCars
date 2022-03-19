@@ -34,7 +34,7 @@ const slides = [
   color: "#FFFFFF",
   imgFloorUrl: floorImg,
   imgUrl: l1,
-  topSpeed: 115,
+  topSpeed: 135,
   slots: 4,
   seats:2,
   Price: 599999,
@@ -49,7 +49,7 @@ const slides = [
     color: "#FFFFFF",
     imgFloorUrl: floorImg,
     imgUrl: l2,
-    topSpeed: 105,
+    topSpeed: 122,
     slots: 4,
     seats:2,
     Price: 785999,
@@ -57,15 +57,49 @@ const slides = [
     carShadowHeight: 200,
     shadowOpacity: 0.5 },
 
+
+    {
+        id: 3,
+        name: "★ 2011 Mercedes-Benz SLS AMG",
+        desc: "★ Premium Only ★ Acceleration:Okay / Breaks:Bad / Handling:Okay",
+        color: "#FFC300",
+        imgFloorUrl: floorImg,
+        imgUrl: l4,
+        topSpeed: 119,
+        slots: 4,
+        seats:2,
+        Price: 495999,
+        bckgHeight: 300,
+        carShadowHeight: 300,
+        shadowOpacity: 0.2 },
+
+
+        {
+          id: 4,
+          name: "Mercedes-Benz SL65 AMGr",
+          desc:
+          "Aceleration:Okay / Breaks:Good / Handling:Okay",
+          color: "#FFFFFF",
+          imgFloorUrl: floorImg,
+          imgUrl: l17,
+          topSpeed: 116,
+          slots: 4,
+          seats:4,
+          Price: 325999,
+          bckgHeight: 340,
+          carShadowHeight: 150,
+          shadowOpacity: 0.5 },
+
+
 {
-  id: 3,
+  id: 5,
   name: "★ 2015 Tesla Model X",
   desc:
   "★ Premium Only ★ Acceleration:Good / Brakes:Good / Handling:Good",
   color: "#FFC300",
   imgFloorUrl: floorImg,
   imgUrl: l3,
-  topSpeed: 100,
+  topSpeed: 110,
   slots: 12,
   seats:7,
   Price: 600000,
@@ -74,30 +108,17 @@ const slides = [
   shadowOpacity: 0.2 },
 
 
-  {
-      id: 4,
-      name: "★ 2011 Mercedes-Benz SLS AMG",
-      desc: "★ Premium Only ★ Acceleration:Okay / Breaks:Bad / Handling:Okay",
-      color: "#FFC300",
-      imgFloorUrl: floorImg,
-      imgUrl: l4,
-      topSpeed: 100,
-      slots: 4,
-      seats:2,
-      Price: 495999,
-      bckgHeight: 300,
-      carShadowHeight: 300,
-      shadowOpacity: 0.2 },
+
 
   {
-    id: 5,
+    id: 6,
     name: "★ 2011 Mercedes-Benz E63 AMG",
     desc:
     "★ Premium Only ★ Acceleration:Okay / Breaks:Okay / Handling:Bad",
     color: "#FFC300",
     imgFloorUrl: floorImg,
     imgUrl: l5,
-    topSpeed: 90,
+    topSpeed: 108,
     slots: 4,
     seats:4,
     Price: 135999,
@@ -105,15 +126,49 @@ const slides = [
     carShadowHeight: 150,
     shadowOpacity: 0.5 },
 
+
     {
-      id: 6,
+      id: 7,
+      name: "2010 Audi S5 V8",
+      desc:
+      "Acceleration:Okay / Breaks:Good / Handling:Okay",
+      color: "#FFFFFF",
+      imgFloorUrl: floorImg,
+      imgUrl: l10,
+      topSpeed: 102,
+      slots: 4,
+      seats:5,
+      Price: 364999,
+      bckgHeight: 340,
+      carShadowHeight: 150,
+      shadowOpacity: 0.5 },
+
+
+      {
+        id: 8,
+        name: "2017 Audi S5",
+        desc:
+        "Acceleration:Okay / Breaks:Okay / Handling:Good",
+        color: "#FFFFFF",
+        imgFloorUrl: floorImg,
+        imgUrl: l11,
+        topSpeed: 102,
+        slots: 4,
+        seats:4,
+        Price: 404999,
+        bckgHeight: 340,
+        carShadowHeight: 150,
+        shadowOpacity: 0.5 },
+
+    {
+      id: 9,
       name: "2013 Audi RS4 Quattro",
       desc:
       "Acceleration:Okay / Breaks:Okay / Handling:Okay",
       color: "#FFFFFF",
       imgFloorUrl: floorImg,
       imgUrl: l6,
-      topSpeed: 90,
+      topSpeed: 101,
       slots: 4,
       seats:5,
       Price: 384999,
@@ -121,95 +176,68 @@ const slides = [
       carShadowHeight: 150,
       shadowOpacity: 0.5 },
 
+
+
       {
-        id: 7,
+        id: 10,
+        name: "★ 2015 Ferrari FF",
+        desc:
+        "★ Premium Only ★ Acceleration:Good / Breaks:Good / Handling:Okay",
+        color: "#FFC300",
+        imgFloorUrl: floorImg,
+        imgUrl: l8,
+        topSpeed: 100,
+        slots: 4,
+        seats:4,
+        Price: 957999,
+        bckgHeight: 340,
+        carShadowHeight: 150,
+        shadowOpacity: 0.5 },
+
+
+        {
+          id: 11,
+          name: "★ 2012 Tesla Model S",
+          desc:
+          "★ Premium Only ★ Acceleration:Okay / Breaks:Okay / Handling:Bad",
+          color: "#FFC300",
+          imgFloorUrl: floorImg,
+          imgUrl: l9,
+          topSpeed: 100,
+          slots: 10,
+          seats:5,
+          Price: 289999,
+          bckgHeight: 340,
+          carShadowHeight: 150,
+          shadowOpacity: 0.5 },
+
+      {
+        id: 12,
         name: "★ 1985 Cadillac Fleetwood Brougham d'Elegance",
         desc:
         "★ Premium Only ★ Acceleration:Okay / Breaks:Good / Handling:Good",
         color: "#FFC300",
         imgFloorUrl: floorImg,
         imgUrl: l7,
-        topSpeed: 90,
+        topSpeed: 100,
         slots: 4,
         seats:4,
         Price: 45000,
         bckgHeight: 340,
         carShadowHeight: 150,
         shadowOpacity: 0.5 },
-        {
-          id: 8,
-          name: "★ 2015 Ferrari FF",
-          desc:
-          "★ Premium Only ★ Acceleration:Good / Breaks:Good / Handling:Okay",
-          color: "#FFC300",
-          imgFloorUrl: floorImg,
-          imgUrl: l8,
-          topSpeed: 85,
-          slots: 4,
-          seats:4,
-          Price: 957999,
-          bckgHeight: 340,
-          carShadowHeight: 150,
-          shadowOpacity: 0.5 },
-
-            {
-              id: 9,
-              name: "★ 2012 Tesla Model S",
-              desc:
-              "★ Premium Only ★ Acceleration:Okay / Breaks:Okay / Handling:Bad",
-              color: "#FFC300",
-              imgFloorUrl: floorImg,
-              imgUrl: l9,
-              topSpeed: 85,
-              slots: 10,
-              seats:5,
-              Price: 289999,
-              bckgHeight: 340,
-              carShadowHeight: 150,
-              shadowOpacity: 0.5 },
 
 
-              {
-                id: 10,
-                name: "2010 Audi S5 V8",
-                desc:
-                "Acceleration:Okay / Breaks:Good / Handling:Okay",
-                color: "#FFFFFF",
-                imgFloorUrl: floorImg,
-                imgUrl: l10,
-                topSpeed: 80,
-                slots: 4,
-                seats:5,
-                Price: 364999,
-                bckgHeight: 340,
-                carShadowHeight: 150,
-                shadowOpacity: 0.5 },
-
-              {
-                id: 11,
-                name: "2017 Audi S5",
-                desc:
-                "Acceleration:Okay / Breaks:Okay / Handling:Good",
-                color: "#FFFFFF",
-                imgFloorUrl: floorImg,
-                imgUrl: l11,
-                topSpeed: 80,
-                slots: 4,
-                seats:4,
-                Price: 404999,
-                bckgHeight: 340,
-                carShadowHeight: 150,
-                shadowOpacity: 0.5 },
 
                 {
-                  id: 12,
+                  id: 13,
                   name: "2010 Audi S4 V6T",
                   desc:
                   "Acceleration:Okay / Breaks:Okay / Handling:Good",
                   color: "#FFFFFF",
                   imgFloorUrl: floorImg,
                   imgUrl: l12,
-                  topSpeed: 80,
+                  topSpeed: 90,
                   slots: 5,
                   seats:2,
                   Price: 191999,
@@ -218,14 +246,14 @@ const slides = [
                   shadowOpacity: 0.5 },
 
                   {
-                    id: 13,
+                    id: 14,
                     name: "2010 Mercedes-Benz C32 AMG",
                     desc:
                     "Acceleration:Okay / Breaks:Bad / Handling:Bad",
                     color: "#FFFFFF",
                     imgFloorUrl: floorImg,
                     imgUrl: l13,
-                    topSpeed: 80,
+                    topSpeed: 90,
                     slots: 4,
                     seats:2,
                     Price: 199999,
@@ -235,21 +263,6 @@ const slides = [
 
 
                     {
-                      id: 14,
-                      name: "★ Aston Martin DB5",
-                      desc:
-                      "★ Premium Only ★ Aceleration:Bad / Breaks:Okay / Handling:Good",
-                      color: "#FFC300",
-                      imgFloorUrl: floorImg,
-                      imgUrl: lw1,
-                      topSpeed: 80,
-                      slots: 4,
-                      seats:4,
-                      Price: 499999,
-                      bckgHeight: 340,
-                      carShadowHeight: 150,
-                      shadowOpacity: 0.5 },
-                    {
                       id: 15,
                       name: "★ 1963 Rolls-Royce Silver Cloud III",
                       desc:
@@ -257,7 +270,7 @@ const slides = [
                       color: "#FFC300",
                       imgFloorUrl: floorImg,
                       imgUrl: l14,
-                      topSpeed: 70,
+                      topSpeed: 83,
                       slots: 4,
                       seats:4,
                       Price: 699999,
@@ -275,7 +288,7 @@ const slides = [
                         color: "#FFFFFF",
                         imgFloorUrl: floorImg,
                         imgUrl: l16,
-                        topSpeed: 70,
+                        topSpeed: 83,
                         slots: 4,
                         seats:4,
                         Price: 155999,
@@ -284,24 +297,21 @@ const slides = [
                         shadowOpacity: 0.5 },
 
 
-                        {
-                          id: 17,
-                          name: "★ Mercedes AMG G65",
-                          desc:
-                          "★ Premium Only ★ Acceleration:Good / Breaks:Okay / Handling:Good",
-                          color: "#FFC300",
-                          imgFloorUrl: floorImg,
-                          imgUrl: lw2,
-                          topSpeed: 70,
-                          slots: 4,
-                          seats:5,
-                          Price: 314999,
-                          bckgHeight: 340,
-                          carShadowHeight: 150,
-                          shadowOpacity: 0.5 },
-
-
-
+                    {
+                      id: 17,
+                      name: "★ Aston Martin DB5",
+                      desc:
+                      "★ Premium Only ★ Aceleration:Bad / Breaks:Okay / Handling:Good",
+                      color: "#FFC300",
+                      imgFloorUrl: floorImg,
+                      imgUrl: lw1,
+                      topSpeed: 82,
+                      slots: 4,
+                      seats:4,
+                      Price: 499999,
+                      bckgHeight: 340,
+                      carShadowHeight: 150,
+                      shadowOpacity: 0.5 },
 
                         {
                           id: 18,
@@ -311,7 +321,7 @@ const slides = [
                           color: "#FFC300",
                           imgFloorUrl: floorImg,
                           imgUrl: l166,
-                          topSpeed: 60,
+                          topSpeed: 71,
                           slots: 4,
                           seats:2,
                           Price: 1502999,
@@ -319,21 +329,25 @@ const slides = [
                           carShadowHeight: 150,
                           shadowOpacity: 0.5 },
 
+
+
                           {
                             id: 19,
-                            name: "Mercedes-Benz SL65 AMGr",
+                            name: "★ Mercedes AMG G65",
                             desc:
-                            "Aceleration:Okay / Breaks:Good / Handling:Okay",
-                            color: "#FFFFFF",
+                            "★ Premium Only ★ Acceleration:Good / Breaks:Okay / Handling:Good",
+                            color: "#FFC300",
                             imgFloorUrl: floorImg,
-                            imgUrl: l17,
-                            topSpeed: 60,
+                            imgUrl: lw2,
+                            topSpeed: 70,
                             slots: 4,
-                            seats:4,
-                            Price: 325999,
+                            seats:5,
+                            Price: 314999,
                             bckgHeight: 340,
                             carShadowHeight: 150,
                             shadowOpacity: 0.5 },
+
+
 ];
 
 

@@ -20,13 +20,13 @@ const slides = [
 
 {
     id: 1,
-    name: "★ 2011 Mercedes McLaren SLR",
+    name: "★ 2013 Porsche GT3 RSR",
     desc:
     "★ Premium Only ★ Acceleration:Good / Brakes:Okay / Handling:Good",
     color: "#FFC300",
     imgFloorUrl: floorImg,
     imgUrl: mis1,
-    topSpeed: 120,
+    topSpeed: 140,
     slots: 4,
     seats:2,
     Price: 6599990,
@@ -41,7 +41,7 @@ const slides = [
       color: "#FFC300",
       imgFloorUrl: floorImg,
       imgUrl: mis2,
-      topSpeed: 105,
+      topSpeed: 120,
       slots: 4,
       seats:1,
       Price: 6259999,
@@ -58,7 +58,7 @@ const slides = [
     color: "#FFFFFF",
     imgFloorUrl: floorImg,
     imgUrl: mis3,
-    topSpeed: 105,
+    topSpeed: 120,
     slots: 4,
     seats:1,
     Price: 7599999,
@@ -74,7 +74,7 @@ const slides = [
       color: "#FFC300",
       imgFloorUrl: floorImg,
       imgUrl: mis4,
-      topSpeed: 100,
+      topSpeed: 105,
       slots: 4,
       seats:1,
       Price: 5599990,
@@ -82,15 +82,32 @@ const slides = [
       carShadowHeight: 300,
       shadowOpacity: 0.2 },
 
+
+      {
+        id: 5,
+        name: "Morgan Aero SS",
+        desc:
+        "Acceleration:Okay / Breaks:Okay / Handling:Good",
+        color: "#FFFFFF",
+        imgFloorUrl: floorImg,
+        imgUrl: mis6,
+        topSpeed: 99,
+        slots: 4,
+        seats:2,
+        Price: 535999,
+        bckgHeight: 340,
+        carShadowHeight: 150,
+        shadowOpacity: 0.5 },
+
   {
-    id: 5,
+    id: 6,
     name: "★ 1963 Mercedes-Benz 300 SL",
     desc:
     "★ Premium Only ★ Acceleration:Okay / Breaks:Okay / Handling:Bad",
     color: "#FFC300",
     imgFloorUrl: floorImg,
     imgUrl: mis5,
-    topSpeed: 80,
+    topSpeed: 94,
     slots: 4,
     seats:2,
     Price: 415999,
@@ -98,21 +115,7 @@ const slides = [
     carShadowHeight: 150,
     shadowOpacity: 0.5 },
 
-    {
-      id: 6,
-      name: "Morgan Aero SS",
-      desc:
-      "Acceleration:Okay / Breaks:Okay / Handling:Good",
-      color: "#FFFFFF",
-      imgFloorUrl: floorImg,
-      imgUrl: mis6,
-      topSpeed: 80,
-      slots: 4,
-      seats:2,
-      Price: 535999,
-      bckgHeight: 340,
-      carShadowHeight: 150,
-      shadowOpacity: 0.5 },
+
 
       {
         id: 7,
@@ -122,7 +125,7 @@ const slides = [
         color: "#FFC300",
         imgFloorUrl: floorImg,
         imgUrl: mis7,
-        topSpeed: 40,
+        topSpeed: 44,
         slots: 4,
         seats:2,
         Price: 345999,
@@ -137,7 +140,7 @@ const slides = [
           color: "#FFC300",
           imgFloorUrl: floorImg,
           imgUrl: mis8,
-          topSpeed: 15,
+          topSpeed: 14,
           slots: 4,
           seats:1,
           Price: 2500,
