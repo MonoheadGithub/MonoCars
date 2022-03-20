@@ -71,7 +71,7 @@ const slides = [
 
     {
       id: 4,
-      name: "1997 Volvo 850 R",
+      name: "☓ 1997 Volvo 850 R",
       desc:
       "Acceleration:Bad / Breaks:Bad / Handling:Bad",
       color: "#FF1F1F",

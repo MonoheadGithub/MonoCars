@@ -485,7 +485,7 @@ const slides = [
 
                                           {
                                             id: 24,
-                                            name: "2000 Nissan Skyline GTR (Disabled)",
+                                            name: "☓ 2000 Nissan Skyline GTR (Disabled)",
                                             desc:
                                             "Aceleration:Good / Breaks:Good / Handling:Good",
                                             color: "red",
