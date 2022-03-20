@@ -56,7 +56,7 @@ const slides = [
     id: 3,
     name: " ♦ 2005 Volkswagen Golf R32",
     desc:
-    "♦ Starter Friendly ♦ Acceleration:Good / Brakes:Good / Handling:Good",
+    "♦ Beginner Friendly ♦ Acceleration:Good / Brakes:Good / Handling:Good",
     color: "#78ECCC",
     imgFloorUrl: floorImg,
     imgUrl: c3,
@@ -126,7 +126,7 @@ const slides = [
     id: 7,
     name: "♦ 2015 Volkswagen Scirocco R",
     desc:
-    "♦ Starter Friendly ♦ Acceleration:Okay / Breaks:Okay / Handling:Okay",
+    "♦ Beginner Friendly ♦ Acceleration:Okay / Breaks:Okay / Handling:Okay",
     color: "#78ECCC",
     imgFloorUrl: floorImg,
     imgUrl: c5,
@@ -145,7 +145,7 @@ const slides = [
           id: 8,
           name: "♦ 2011 Honda Civic Type R",
           desc:
-          "♦ Starter Friendly ♦ Acceleration:Bad / Breaks:Good / Handling:Good",
+          "♦ Beginner Friendly ♦ Acceleration:Bad / Breaks:Good / Handling:Good",
           color: "#78ECCC",
           imgFloorUrl: floorImg,
           imgUrl: c8,
@@ -162,7 +162,7 @@ const slides = [
             id: 9,
             name: "♦ 1997 Honda Civic Type R",
             desc:
-            "♦ Starter Friendly ♦ Acceleration:Bad / Breaks:Okay / Handling:Okay",
+            "♦ Beginner Friendly ♦ Acceleration:Bad / Breaks:Okay / Handling:Okay",
             color: "#78ECCC",
             imgFloorUrl: floorImg,
             imgUrl: c11,
@@ -194,7 +194,7 @@ const slides = [
               id: 11,
               name: "♦ 1987 Shelby Omni GLHS",
               desc:
-              "♦ Great Starter Car ♦ Acceleration:Good / Breaks:Good / Handling:Good",
+              "♦ Great Beginner's Car ♦ Acceleration:Good / Breaks:Good / Handling:Good",
               color: "#78ECCC",
               imgFloorUrl: floorImg,
               imgUrl: c10,
