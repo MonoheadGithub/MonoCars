@@ -71,7 +71,7 @@ const slides = [
   {
     id: 4,
     name: "1987 Volvo 242 Turbo",
-    desc: "Acceleration:Okay / Brakes:Okay / Handling:Okay",
+    desc: "Acceleration:Bad / Brakes:Okay / Handling:Okay",
     color: "#FFFFFF",
     imgFloorUrl: floorImg,
     imgUrl: sed3,
@@ -122,7 +122,7 @@ const slides = [
                 id: 7,
                 name: "2010 Subaru Legacy GT",
                 desc:
-                "Acceleration:Okay / Breaks:Good / Handling:Okay",
+                "Acceleration:Okay / Breaks:Good / Handling:Good",
                 color: "#FFFFFF",
                 imgFloorUrl: floorImg,
                 imgUrl: sed7,
@@ -140,7 +140,7 @@ const slides = [
                           id: 8,
                           name: "2016 BMW 340i",
                           desc:
-                          "Acceleration:Okay / Breaks:Okay / Handling:Good",
+                          "Acceleration:Okay / Breaks:Good / Handling:Good",
                           color: "#FFFFFF",
                           imgFloorUrl: floorImg,
                           imgUrl: sed8,

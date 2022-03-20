@@ -16,7 +16,7 @@ const slides = [
     id: 1,
     name: "★ 2014 Jeep Wrangler F&F",
     desc:
-    "★ Premium Only ★ Acceleration:Okay / Brakes:Good / Handling:Good",
+    "★ Premium Only ★ Acceleration:Okay / Brakes:Okay / Handling:Good",
     color: "#FFC300",
     imgFloorUrl: floorImg,
     imgUrl: off1,

@@ -30,7 +30,7 @@ const slides = [
 {
   id: 1,
   name: "2019 Chevrole Corvette ZR1",
-  desc: "Acceleration:Good / Brakes:Good / Handling:Bad",
+  desc: "Acceleration:Good / Brakes:Good / Handling:Okay",
   color: "#FFFFFF",
   imgFloorUrl: floorImg,
   imgUrl: l1,
@@ -78,7 +78,7 @@ const slides = [
           id: 4,
           name: "Mercedes-Benz SL65 AMGr",
           desc:
-          "Aceleration:Okay / Breaks:Good / Handling:Okay",
+          "Aceleration:Okay / Breaks:Okay / Handling:Okay",
           color: "#FFFFFF",
           imgFloorUrl: floorImg,
           imgUrl: l17,
@@ -114,7 +114,7 @@ const slides = [
     id: 6,
     name: "★ 2011 Mercedes-Benz E63 AMG",
     desc:
-    "★ Premium Only ★ Acceleration:Okay / Breaks:Okay / Handling:Bad",
+    "★ Premium Only ★ Acceleration:Okay / Breaks:Okay / Handling:Okay",
     color: "#FFC300",
     imgFloorUrl: floorImg,
     imgUrl: l5,
@@ -266,7 +266,7 @@ const slides = [
                       id: 15,
                       name: "★ 1963 Rolls-Royce Silver Cloud III",
                       desc:
-                      "★ Premium Only ★ Acceleration:Bad / Breaks:Okay / Handling:Bad",
+                      "★ Premium Only ★ Acceleration:Bad / Breaks:Okay / Handling:Good",
                       color: "#FFC300",
                       imgFloorUrl: floorImg,
                       imgUrl: l14,
@@ -317,7 +317,7 @@ const slides = [
                           id: 18,
                           name: "★ 1959 BMW 507 Roadster",
                           desc:
-                          "★ Premium Only ★ Acceleration:Bad / Breaks:Okay / Handling:Bad",
+                          "★ Premium Only ★ Acceleration:Bad / Breaks:Good / Handling:Good",
                           color: "#FFC300",
                           imgFloorUrl: floorImg,
                           imgUrl: l166,

@@ -22,7 +22,7 @@ const slides = [
     id: 1,
     name: "★ 2013 Porsche GT3 RSR",
     desc:
-    "★ Premium Only ★ Acceleration:Good / Brakes:Okay / Handling:Good",
+    "★ Premium Only ★ Acceleration:Good / Brakes:Okay / Handling:Okay",
     color: "#FFC300",
     imgFloorUrl: floorImg,
     imgUrl: mis1,
@@ -87,7 +87,7 @@ const slides = [
         id: 5,
         name: "Morgan Aero SS",
         desc:
-        "Acceleration:Okay / Breaks:Okay / Handling:Good",
+        "Acceleration:Okay / Breaks:Okay / Handling:Okay",
         color: "#FFFFFF",
         imgFloorUrl: floorImg,
         imgUrl: mis6,
@@ -121,7 +121,7 @@ const slides = [
         id: 7,
         name: "★ 1940 Ford Deluxe Coupe",
         desc:
-        "★ Premium Only ★ Acceleration:Bad / Breaks:Okay / Handling:Okay",
+        "★ Premium Only ★ Acceleration:Bad / Breaks:Good / Handling:Good",
         color: "#FFC300",
         imgFloorUrl: floorImg,
         imgUrl: mis7,
@@ -136,7 +136,7 @@ const slides = [
           id: 8,
           name: "★ 2003 Porsche Tricycle",
           desc:
-          "★ Premium Only ★ Acceleration:Okay / Breaks:Good / Handling:Good",
+          "★ Premium Only ★ Acceleration:Bad / Breaks:Good / Handling:Good",
           color: "#FFC300",
           imgFloorUrl: floorImg,
           imgUrl: mis8,

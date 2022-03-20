@@ -59,7 +59,7 @@ const slides = [
       id: 3,
       name: "2010 Lamborghini Murcielago LP670-4 SV",
       desc:
-      "Acceleration:Good / Breaks:Good / Handling:Good",
+      "Acceleration:Okay / Breaks:Okay / Handling:Okay",
       color: "#FFC300",
       imgFloorUrl: floorImg,
       imgUrl: sup8,
@@ -124,7 +124,7 @@ const slides = [
         id: 7,
         name: "2007 Porsche Carrera GT",
         desc:
-        "Acceleration:Okay / Breaks:Good / Handling:Good",
+        "Acceleration:Okay / Breaks:Okay / Handling:Okay",
         color: "#FFFFFF",
         imgFloorUrl: floorImg,
         imgUrl: sup7,
@@ -142,7 +142,7 @@ const slides = [
           id: 8,
           name: "★ 2005 Ford GT",
           desc:
-          "★ Premium Only ★ Acceleration:Good / Breaks:Good / Handling:Okay",
+          "★ Premium Only ★ Acceleration:Okay / Breaks:Good / Handling:Bad",
           color: "#FFC300",
           imgFloorUrl: floorImg,
           imgUrl: sup11,
@@ -159,7 +159,7 @@ const slides = [
           id: 9,
           name: "2010 Lamborghini Gallardo LP570-4",
           desc:
-          "Acceleration:Okay / Breaks:Bad / Handling:Okay",
+          "Acceleration:Okay / Breaks:Bad / Handling:Good",
           color: "#FFFFFF",
           imgFloorUrl: floorImg,
           imgUrl: sup5,
@@ -242,7 +242,7 @@ const slides = [
                       id: 14,
                       name: "★ 2001 Lamborghini Diablo",
                       desc:
-                      "★ Premium Only ★ Aceleration:Okay / Breaks:Good / Handling:Good",
+                      "★ Premium Only ★ Aceleration:Okay / Breaks:Good / Handling:Okay",
                       color: "#FFC300",
                       imgFloorUrl: floorImg,
                       imgUrl: sup14,

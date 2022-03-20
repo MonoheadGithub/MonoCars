@@ -24,7 +24,7 @@ const slides = [
     id: 1,
     name: "2015 Dodge Viper STR GTS",
     desc:
-    "Acceleration:Okay / Brakes:Bad / Handling:Okay",
+    "Acceleration:Okay / Brakes:Okay / Handling:Okay",
     color: "#FFFFFF",
     imgFloorUrl: floorImg,
     imgUrl: mu1,
@@ -40,7 +40,7 @@ const slides = [
     {
       id: 2,
       name: "2014 Chevrolet Camaro ZL1",
-      desc: "Acceleration:Okay / Brakes:Bad / Handling:Okay",
+      desc: "Acceleration:Good / Brakes:Okay / Handling:Good",
       color: "#FFFFFF",
       imgFloorUrl: floorImg,
       imgUrl: mu3,
@@ -55,7 +55,7 @@ const slides = [
     {
       id: 3,
       name: "★ 2011 Ford Shelby 500",
-      desc: "★ Premium Only ★ Acceleration:Good / Brakes:Good / Handling:Bad",
+      desc: "★ Premium Only ★ Acceleration:Good / Brakes:Good / Handling:Good",
       color: "#FFC300",
       imgFloorUrl: floorImg,
       imgUrl: mu2,
@@ -90,7 +90,7 @@ const slides = [
     id: 5,
     name: "2015 Dodge Challenger SXT",
     desc:
-    "Acceleration:Okay / Breaks:Good / Handling:Good",
+    "Acceleration:Okay / Breaks:Okay / Handling:Good",
     color: "#FFFFFF",
     imgFloorUrl: floorImg,
     imgUrl: mu5,
@@ -171,7 +171,7 @@ const slides = [
               id: 10,
               name: "★ 1970 Dodge Challenger",
               desc:
-              "★ Premium Only ★ Acceleration:Okay / Breaks:Okay / Handling:Bad",
+              "★ Premium Only ★ Acceleration:Okay / Breaks:Okay / Handling:Okay",
               color: "#FFC300",
               imgFloorUrl: floorImg,
               imgUrl: mu10,

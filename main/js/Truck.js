@@ -19,7 +19,7 @@ const slides = [
     id: 1,
     name: "★ 2012 Ford Raptor",
     desc:
-    "★ Premium Only ★ Acceleration:Good / Brakes:Good / Handling:Good",
+    "★ Premium Only ★ Acceleration:Okay / Brakes:Okay / Handling:Good",
     color: "#FFC300",
     imgFloorUrl: floorImg,
     imgUrl: tr1,

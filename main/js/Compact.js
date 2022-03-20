@@ -39,7 +39,7 @@ const slides = [
 {
   id: 2,
   name: "2016 BMW 1 Series M",
-  desc: "Acceleration:Bad / Brakes:Bad / Handling:Okay",
+  desc: "Acceleration:Bad / Brakes:Okay / Handling:Okay",
   color: "#F0F0F0",
   imgFloorUrl: floorImg,
   imgUrl: c1,
@@ -106,7 +106,7 @@ const slides = [
     id: 6,
     name: "1999 Mitsubishi Lancer GSR Evolution",
     desc:
-    "Acceleration:Good / Brakes:Bad / Handling:Good",
+    "Acceleration:Good / Brakes:Okay / Handling:Good",
     color: "#FFFFFF",
     imgFloorUrl: floorImg,
     imgUrl: c2,

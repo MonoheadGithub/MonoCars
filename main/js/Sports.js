@@ -70,7 +70,7 @@ const slides = [
   id: 3,
   name: "★ 2014 Porsche 918 Spyder",
   desc:
-  "★ Premium Only ★ Acceleration:Good / Brakes:Good / Handling:Good",
+  "★ Premium Only ★ Acceleration:Good / Brakes:Okay / Handling:Good",
   color: "#FFC300",
   imgFloorUrl: floorImg,
   imgUrl: spo3,
@@ -120,7 +120,7 @@ const slides = [
                     id: 6,
                     name: "★ 2013 Nissan GT-R Black Edition",
                     desc:
-                    "★ Premium Only ★ Acceleration:Good / Breaks:Okay / Handling:Good",
+                    "★ Premium Only ★ Acceleration:Good / Breaks:Okay / Handling:Okay",
                     color: "#FFC300",
                     imgFloorUrl: floorImg,
                     imgUrl: spo9,
@@ -153,7 +153,7 @@ const slides = [
                         id: 8,
                         name: "2012 Aston Martin DBS",
                         desc:
-                        "Acceleration:Okay / Breaks:Okay / Handling:Good",
+                        "Acceleration:Okay / Breaks:Good / Handling:Good",
                         color: "#FFFFFF",
                         imgFloorUrl: floorImg,
                         imgUrl: spo7,
@@ -169,7 +169,7 @@ const slides = [
                           id: 9,
                           name: "2013 Subaru BRZ",
                           desc:
-                          "Acceleration:Okay / Breaks:Okay / Handling:Okay",
+                          "Acceleration:Okay / Breaks:Good / Handling:Good",
                           color: "#FFFFFF",
                           imgFloorUrl: floorImg,
                           imgUrl: spo10,
@@ -201,7 +201,7 @@ const slides = [
                               id: 11,
                               name: "2009 Chevrolet Corvette GSC",
                               desc:
-                              "Acceleration:Okay / Breaks:Bad / Handling:Good",
+                              "Acceleration:Okay / Breaks:Okay / Handling:Good",
                               color: "#FFFFFF",
                               imgFloorUrl: floorImg,
                               imgUrl: spo12,
@@ -250,7 +250,7 @@ const slides = [
           id: 14,
           name: "2016 BMW M6",
           desc:
-          "Acceleration:Okay / Breaks:Okay / Handling:Good",
+          "Acceleration:Okay / Breaks:Okay / Handling:Okay",
           color: "#FFFFFF",
           imgFloorUrl: floorImg,
           imgUrl: spo8,
@@ -269,7 +269,7 @@ const slides = [
                       id: 15,
                       name: "2009 Nissan 370Z",
                       desc:
-                      "Aceleration:Okay / Breaks:Okay / Handling:Okay",
+                      "Aceleration:Okay / Breaks:Good / Handling:Okay",
                       color: "#FFFFFF",
                       imgFloorUrl: floorImg,
                       imgUrl: spo14,
@@ -286,7 +286,7 @@ const slides = [
                         id: 16,
                         name: "2009 Nissan 350Z",
                         desc:
-                        "Acceleration:Okay / Breaks:Okay / Handling:Good",
+                        "Acceleration:Okay / Breaks:Good / Handling:Good",
                         color: "#FFFFFF",
                         imgFloorUrl: floorImg,
                         imgUrl: spo17,
@@ -352,7 +352,7 @@ const slides = [
                               id: 20,
                               name: "2006 Mazda RX-8 GT",
                               desc:
-                              "Aceleration:Bad / Breaks:Okay / Handling:Okay",
+                              "Aceleration:Bad / Breaks:Good / Handling:Okay",
                               color: "#FFFFFF",
                               imgFloorUrl: floorImg,
                               imgUrl: spo28,
@@ -402,7 +402,7 @@ const slides = [
                             id: 23,
                             name: "1981 BMW M1",
                             desc:
-                            "Aceleration:Bad / Breaks:Good / Handling:Okay",
+                            "Aceleration:Bad / Breaks:Okay / Handling:Okay",
                             color: "#FFFFFF",
                             imgFloorUrl: floorImg,
                             imgUrl: spo19,
@@ -438,7 +438,7 @@ const slides = [
                                       id: 25,
                                       name: "2011 Bentley Continental GT",
                                       desc:
-                                      "Aceleration:Okay / Breaks:Good / Handling:Good",
+                                      "Aceleration:Good / Breaks:Okay / Handling:Good",
                                       color: "#FFFFFF",
                                       imgFloorUrl: floorImg,
                                       imgUrl: spo24,
@@ -454,7 +454,7 @@ const slides = [
                                         id: 26,
                                         name: "2002 Nissan Silvia S15",
                                         desc:
-                                        "Aceleration:Okay / Breaks:Okay / Handling:Okay",
+                                        "Aceleration:Bad / Breaks:Okay / Handling:Okay",
                                         color: "#FFFFFF",
                                         imgFloorUrl: floorImg,
                                         imgUrl: spo27,

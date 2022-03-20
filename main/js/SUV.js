@@ -55,7 +55,7 @@ const slides = [
   {
     id: 3,
     name: "2012 Ford Transit",
-    desc: "Acceleration:Okay / Brakes:Okay / Handling:Okay",
+    desc: "Acceleration:Bad / Brakes:Good / Handling:Good",
     color: "#FFFFFF",
     imgFloorUrl: floorImg,
     imgUrl: suv3,
@@ -137,7 +137,7 @@ const slides = [
           id: 8,
           name: "2014 Toyota FJ Cruiser",
           desc:
-          "Acceleration:Okay / Breaks:Good / Handling:Okay",
+          "Acceleration:Okay / Breaks:Good / Handling:Good",
           color: "#FFFFFF",
           imgFloorUrl: floorImg,
           imgUrl: suv8,
@@ -153,7 +153,7 @@ const slides = [
             id: 9,
             name: "2012 Toyota RAV4 Sport",
             desc:
-            "Acceleration:Bad / Breaks:Okay / Handling:Okay",
+            "Acceleration:Bad / Breaks:Good / Handling:Good",
             color: "#FFFFFF",
             imgFloorUrl: floorImg,
             imgUrl: suv9,
