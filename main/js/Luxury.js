@@ -26,6 +26,8 @@ l166 = 'https://i.imgur.com/rAEzFSY.png';
 l17 = 'https://i.imgur.com/Y5Dyyam.png';
 lw1 = 'https://i.imgur.com/eitrdMY.png';
 lw2 = 'https://i.imgur.com/vY6VCFA.png';
+newdeleron = 'https://i.imgur.com/IZEI9a3.png';
+newferrarif430 = 'https://i.imgur.com/UjhUSwz.png';
 const slides = [
 {
   id: 1,
@@ -90,6 +92,21 @@ const slides = [
           carShadowHeight: 150,
           shadowOpacity: 0.5 },
 
+          {
+            id: 21,
+            name: "Ferrari F430",
+            desc:
+            "Aceleration:Okay / Breaks:Okay / Handling:Okay",
+            color: "#FFFFFF",
+            imgFloorUrl: floorImg,
+            imgUrl: newferrarif430,
+            topSpeed: 114,
+            slots: 4,
+            seats:2,
+            Price: 1200000,
+            bckgHeight: 340,
+            carShadowHeight: 150,
+            shadowOpacity: 0.5 },
 
 {
   id: 5,
@@ -313,8 +330,24 @@ const slides = [
                       carShadowHeight: 150,
                       shadowOpacity: 0.5 },
 
+                      {
+                        id: 18,
+                        name: "Delorean DMC-16",
+                        desc:
+                        "Acceleration:Bad / Breaks:Okay / Handling:Bad",
+                        color: "#FFFFFF",
+                        imgFloorUrl: floorImg,
+                        imgUrl: newdeleron,
+                        topSpeed: 75,
+                        slots: 4,
+                        seats:2,
+                        Price: 500000,
+                        bckgHeight: 340,
+                        carShadowHeight: 150,
+                        shadowOpacity: 0.5 },
+
                         {
-                          id: 18,
+                          id: 19,
                           name: "★ 1959 BMW 507 Roadster",
                           desc:
                           "★ Premium Only ★ Acceleration:Bad / Breaks:Good / Handling:Good",
@@ -332,7 +365,7 @@ const slides = [
 
 
                           {
-                            id: 19,
+                            id: 20,
                             name: "★ Mercedes AMG G65",
                             desc:
                             "★ Premium Only ★ Acceleration:Good / Breaks:Okay / Handling:Good",

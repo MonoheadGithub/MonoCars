@@ -17,8 +17,24 @@ mu7 = 'https://i.imgur.com/84wvw1a.png';
 mu8 = 'https://i.imgur.com/3HFA2AS.png';
 mu9 = 'https://i.imgur.com/hilVapY.png';
 mu10 = 'https://i.imgur.com/4tm9rvh.png';
+newhellcat = 'https://i.imgur.com/8d7AIm0.png';
 const slides = [
 
+  {
+      id: 11,
+      name: "Dodge Charge SRT Hellcat",
+      desc:
+      "Acceleration:Okay / Brakes:Okay / Handling:Bad",
+      color: "#FFFFFF",
+      imgFloorUrl: floorImg,
+      imgUrl: newhellcat,
+      topSpeed: 150,
+      slots: 4,
+      seats:4,
+      Price: 800000,
+      bckgHeight: 340,
+      carShadowHeight: 200,
+      shadowOpacity: 0.5 },
 
 {
     id: 1,

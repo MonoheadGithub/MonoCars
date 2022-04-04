@@ -35,6 +35,7 @@ spo25 = 'https://i.imgur.com/LDoxA4m.png';
 spo26 = 'https://i.imgur.com/Hh9zmCi.png';
 spo27 = 'https://i.imgur.com/P5RV7el.png';
 spo28 = 'https://i.imgur.com/0XIUtcs.png';
+newe3sports = 'https://i.imgur.com/crVluak.png';
 const slides = [
 {
   id: 1,
@@ -364,6 +365,21 @@ const slides = [
                               carShadowHeight: 150,
                               shadowOpacity: 0.5 },
 
+                              {
+                                id: 28,
+                                name: "1986 BMW E30 Non-rally",
+                                desc:
+                                "Aceleration:Okay / Breaks:Okay / Handling:Good",
+                                color: "#FFFFFF",
+                                imgFloorUrl: floorImg,
+                                imgUrl: newe3sports,
+                                topSpeed: 85,
+                                slots: 4,
+                                seats:4,
+                                Price: 999999,
+                                bckgHeight: 340,
+                                carShadowHeight: 150,
+                                shadowOpacity: 0.5 },
 
                               {
                                 id: 21,

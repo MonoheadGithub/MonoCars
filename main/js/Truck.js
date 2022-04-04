@@ -12,11 +12,27 @@ tr2 = 'https://i.imgur.com/o0Ocedg.png';
 tr3 = 'https://i.imgur.com/t6Mdbfu.png';
 tr4 = 'https://i.imgur.com/8EaV47K.png';
 tr5 = 'https://i.imgur.com/P8bAWTt.png';
+newpetertruck ='https://i.imgur.com/HgCaAxv.png';
 const slides = [
 
 
 {
+
     id: 1,
+    name: "Peterbilt 579 Truck",
+    desc: "Acceleration:Good / Brakes:Good / Handling:Good",
+    color: "#FFFFFF",
+    imgFloorUrl: floorImg,
+    imgUrl: newpetertruck,
+    topSpeed: 85,
+    slots: 4,
+    seats:2,
+    Price: 500000,
+    bckgHeight: 300,
+    carShadowHeight: 300,
+    shadowOpacity: 0.2 },
+{
+    id: 2,
     name: "★ 2012 Ford Raptor",
     desc:
     "★ Premium Only ★ Acceleration:Okay / Brakes:Okay / Handling:Good",
@@ -32,7 +48,7 @@ const slides = [
     shadowOpacity: 0.5 },
 
     {
-      id: 2,
+      id: 3,
       name: "2014 Mercedes Sprinter Box Truck",
       desc: "Acceleration:Bad / Brakes:Okay / Handling:Good",
       color: "#FFFFFF",
@@ -47,7 +63,7 @@ const slides = [
       shadowOpacity: 0.2 },
 
       {
-        id: 3,
+        id: 4,
         name: "2008 Ford F350 Superduty",
         desc: "Acceleration:Bad / Brakes:Okay / Handling:Okay",
         color: "#FFFFFF",
@@ -63,7 +79,7 @@ const slides = [
 
 
                   {
-                      id: 4,
+                      id: 5,
                       name: "★ 1969 Chevrolet C10",
                       desc:
                       "★ Premium Only ★ Acceleration:Okay / Brakes:Okay / Handling:Good",
@@ -79,7 +95,7 @@ const slides = [
                       shadowOpacity: 0.5 },
 
       {
-        id: 5,
+        id: 6,
         name: "2009 Toyota Tundra Crewmax",
         desc: "Acceleration:Okay / Brakes:Good / Handling:Okay",
         color: "#FFFFFF",

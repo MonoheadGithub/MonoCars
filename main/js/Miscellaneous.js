@@ -15,6 +15,7 @@ mis5 = 'https://i.imgur.com/HTWe6TU.png';
 mis6 = 'https://i.imgur.com/Djd97NT.png';
 mis7 = 'https://i.imgur.com/CbFa6YT.png';
 mis8 = 'https://i.imgur.com/eJZG0jr.png';
+newwheelchair ='https://i.imgur.com/I3FfHgx.png';
 const slides = [
 
 
@@ -148,6 +149,21 @@ const slides = [
           carShadowHeight: 150,
           shadowOpacity: 0.5 },
 
+          {
+            id: 9,
+            name: "★ WheelChair",
+            desc:
+            "★ Premium Only ★ Acceleration:Bad / Breaks:Good / Handling:Good",
+            color: "#FFC300",
+            imgFloorUrl: floorImg,
+            imgUrl: newwheelchair,
+            topSpeed: 15,
+            slots: 4,
+            seats:1,
+            Price: 20000,
+            bckgHeight: 340,
+            carShadowHeight: 150,
+            shadowOpacity: 0.5 },
 
 ];
 
