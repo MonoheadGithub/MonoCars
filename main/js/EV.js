@@ -19,69 +19,58 @@ const {
 /* Slides data
 -------------------------------------------------------------- */
 
-
 const
   floorImg = 'https://i.imgur.com/gj4AbSS.png',
-  defualtcarImg = 'https://i.imgur.com/wAgJX0S.png',
-  sup1 = 'https://i.imgur.com/D1qqEYy.png';
-sup2 = 'https://i.imgur.com/rD2Pkvs.png';
-sup3 = 'https://i.imgur.com/m8E2cGT.png';
-sup4 = 'https://i.imgur.com/SBsWVLT.png';
-sup5 = 'https://i.imgur.com/aoQkIZ4.png';
-sup6 = 'https://i.imgur.com/R1iiXTi.png';
-sup7 = 'https://i.imgur.com/UHGa8WR.png';
-sup8 = 'https://i.imgur.com/kzPFRKm.png';
-sup9 = 'https://i.imgur.com/CNYnWbV.png';
-sup10 = 'https://i.imgur.com/zcbSG3N.png';
-sup11 = 'https://i.imgur.com/7csaMpL.png';
-sup12 = 'https://i.imgur.com/s92IFO1.png';
-sup13 = 'https://i.imgur.com/wTye5KV.png';
-sup14 = 'https://i.imgur.com/q6jRFTK.png';
-sup15 = 'https://i.imgur.com/kzPFRKm.png';
+  ev1 = 'https://i.imgur.com/p3y5ZFX.png';
+ev2 = 'https://i.imgur.com/AgD5Dnz.png';
+ev3 = 'https://i.imgur.com/nN1BhQ2.png';
+ev4 = 'https://i.imgur.com/v5FoSkX.png';
+ev5 = 'https://i.imgur.com/RsFZpbp.png';
+const slides = [
 
-
-const slides = [{
+  {
     id: 1,
-    name: "★ 2014 McLaren P1",
-    desc: "★ Premium Only ★ Acceleration:Good / Brakes:Good / Handling:Bad",
+    name: "★ 2015 Tesla Model X",
+    desc: "★ Premium Only ★ Acceleration:Good / Brakes:Good / Handling:Good",
     color: "#FFC300",
     imgFloorUrl: floorImg,
-    imgUrl: sup1,
-    topSpeed: 200,
-    slots: 4,
-    seats: 2,
-    Price: 6999999,
+    imgUrl: ev1,
+    topSpeed: 110,
+    slots: 12,
+    seats: 7,
+    Price: 600000,
     bckgHeight: 300,
-    carShadowHeight: 300,
+    carShadowHeight: 250,
     shadowOpacity: 0.2
   },
+
   {
     id: 2,
-    name: "★ 2017 McLaren 720s",
-    desc: "★ Premium Only ★ Acceleration:Okay / Brakes:Good / Handling:Bad",
+    name: "★ 2017 BMW i8",
+    desc: "★ Premium Only ★ Acceleration:Good / Breaks:Good / Handling:Good",
     color: "#FFC300",
     imgFloorUrl: floorImg,
-    imgUrl: sup2,
-    topSpeed: 150,
+    imgUrl: ev2,
+    topSpeed: 100,
     slots: 4,
-    seats: 2,
-    Price: 3599999,
+    seats: 4,
+    Price: 1000000,
     bckgHeight: 340,
-    carShadowHeight: 200,
+    carShadowHeight: 150,
     shadowOpacity: 0.5
   },
 
   {
     id: 3,
-    name: "2010 Lamborghini Murcielago LP670-4 SV",
-    desc: "Acceleration:Okay / Breaks:Okay / Handling:Okay",
+    name: "★ 2012 Tesla Model S",
+    desc: "★ Premium Only ★ Acceleration:Okay / Breaks:Okay / Handling:Bad",
     color: "#FFC300",
     imgFloorUrl: floorImg,
-    imgUrl: sup8,
-    topSpeed: 124,
-    slots: 4,
-    seats: 2,
-    Price: 2999990,
+    imgUrl: ev3,
+    topSpeed: 100,
+    slots: 10,
+    seats: 5,
+    Price: 289999,
     bckgHeight: 340,
     carShadowHeight: 150,
     shadowOpacity: 0.5
@@ -89,210 +78,44 @@ const slides = [{
 
   {
     id: 4,
-    name: "2014 Ferrari LaFerrari",
-    desc: "Acceleration:Good / Brakes:Good / Handling:Good",
+    name: "2014 Toyota Prius XW30",
+    desc: "Acceleration:Bad / Breaks:Okay / Handling:Okay",
     color: "#FFFFFF",
     imgFloorUrl: floorImg,
-    imgUrl: sup3,
-    topSpeed: 120,
+    imgUrl: ev4,
+    topSpeed: 62,
     slots: 4,
-    seats: 2,
-    Price: 7599999,
-    bckgHeight: 300,
-    carShadowHeight: 250,
-    shadowOpacity: 0.2
+    seats: 4,
+    Price: 16999,
+    bckgHeight: 340,
+    carShadowHeight: 150,
+    shadowOpacity: 0.5
   },
-
 
   {
     id: 5,
-    name: "2016 Lykan Hypersport",
-    desc: "Acceleration:Good / Breaks:Good / Handling:Good",
-    color: "#FFFFFF",
-    imgFloorUrl: floorImg,
-    imgUrl: sup4,
-    topSpeed: 120,
-    slots: 4,
-    seats: 2,
-    Price: 6759999,
-    bckgHeight: 300,
-    carShadowHeight: 300,
-    shadowOpacity: 0.2
-  },
-
-
-  {
-    id: 6,
-    name: "2009 Lamborghini Reventon Roadster",
+    name: "2011 Nissan Leaf",
     desc: "Acceleration:Okay / Breaks:Okay / Handling:Okay",
     color: "#FFFFFF",
     imgFloorUrl: floorImg,
-    imgUrl: sup6,
-    topSpeed: 119,
+    imgUrl: ev5,
+    topSpeed: 52,
     slots: 4,
-    seats: 2,
-    Price: 2199990,
+    seats: 4,
+    Price: 29999,
     bckgHeight: 340,
     carShadowHeight: 150,
     shadowOpacity: 0.5
   },
 
-  {
-    id: 7,
-    name: "2007 Porsche Carrera GT",
-    desc: "Acceleration:Okay / Breaks:Okay / Handling:Okay",
-    color: "#FFFFFF",
-    imgFloorUrl: floorImg,
-    imgUrl: sup7,
-    topSpeed: 119,
-    slots: 4,
-    seats: 2,
-    Price: 1019999,
-    bckgHeight: 340,
-    carShadowHeight: 150,
-    shadowOpacity: 0.5
-  },
-
-
-
-  {
-    id: 8,
-    name: "★ 2005 Ford GT",
-    desc: "★ Premium Only ★ Acceleration:Okay / Breaks:Good / Handling:Bad",
-    color: "#FFC300",
-    imgFloorUrl: floorImg,
-    imgUrl: sup11,
-    topSpeed: 119,
-    slots: 4,
-    seats: 2,
-    Price: 959999,
-    bckgHeight: 340,
-    carShadowHeight: 150,
-    shadowOpacity: 0.5
-  },
-
-
-  {
-    id: 9,
-    name: "2010 Lamborghini Gallardo LP570-4",
-    desc: "Acceleration:Okay / Breaks:Bad / Handling:Good",
-    color: "#FFFFFF",
-    imgFloorUrl: floorImg,
-    imgUrl: sup5,
-    topSpeed: 117,
-    slots: 4,
-    seats: 2,
-    Price: 1599990,
-    bckgHeight: 340,
-    carShadowHeight: 150,
-    shadowOpacity: 0.5
-  },
-
-
-  {
-    id: 10,
-    name: "2010 Lamborghini Murcielago",
-    desc: "Acceleration:Okay / Breaks:Okay / Handling:Bad",
-    color: "#FFFFFF",
-    imgFloorUrl: floorImg,
-    imgUrl: sup10,
-    topSpeed: 117,
-    slots: 4,
-    seats: 2,
-    Price: 3199990,
-    bckgHeight: 340,
-    carShadowHeight: 150,
-    shadowOpacity: 0.5
-  },
-
-  {
-    id: 11,
-    name: "2014 Ferrari 458",
-    desc: "Acceleration:Okay / Breaks:Okay / Handling:Okay",
-    color: "#FFFFFF",
-    imgFloorUrl: floorImg,
-    imgUrl: sup9,
-    topSpeed: 110,
-    slots: 4,
-    seats: 2,
-    Price: 799999,
-    bckgHeight: 340,
-    carShadowHeight: 150,
-    shadowOpacity: 0.5
-  },
-
-
-  {
-    id: 12,
-    name: "★ 2006 Lamborghini Miura Concept",
-    desc: "★ Premium Only ★ Acceleration:Okay / Breaks:Okay / Handling:Okay",
-    color: "#FFC300",
-    imgFloorUrl: floorImg,
-    imgUrl: sup12,
-    topSpeed: 110,
-    slots: 4,
-    seats: 2,
-    Price: 915999,
-    bckgHeight: 340,
-    carShadowHeight: 150,
-    shadowOpacity: 0.5
-  },
-
-  {
-    id: 13,
-    name: "2012 Lamborghini Gallardo",
-    desc: "Acceleration:Bad / Breaks:Good / Handling:Okay",
-    color: "#FFFFFF",
-    imgFloorUrl: floorImg,
-    imgUrl: sup13,
-    topSpeed: 110,
-    slots: 4,
-    seats: 2,
-    Price: 899999,
-    bckgHeight: 340,
-    carShadowHeight: 150,
-    shadowOpacity: 0.5
-  },
-
-
-  {
-    id: 14,
-    name: "★ 2001 Lamborghini Diablo",
-    desc: "★ Premium Only ★ Aceleration:Okay / Breaks:Good / Handling:Okay",
-    color: "#FFC300",
-    imgFloorUrl: floorImg,
-    imgUrl: sup14,
-    topSpeed: 105,
-    slots: 4,
-    seats: 2,
-    Price: 1800200,
-    bckgHeight: 340,
-    carShadowHeight: 150,
-    shadowOpacity: 0.5
-  },
-
-
-  {
-    id: 15,
-    name: "2014 Lamborghini Huracan LP610-4",
-    desc: "Acceleration:Good / Breaks:Good / Handling:Good",
-    color: "#FFFFFF",
-    imgFloorUrl: floorImg,
-    imgUrl: sup15,
-    topSpeed: 100,
-    slots: 4,
-    seats: 2,
-    Price: 2599990,
-    bckgHeight: 340,
-    carShadowHeight: 150,
-    shadowOpacity: 0.5
-  },
 
 
 
 
 
 ];
+
+
 
 
 
@@ -335,7 +158,7 @@ function SlideAside(props) {
       React.createElement("h1", {
           className: "monocar-slide-aside__wholename"
         }, /*#__PURE__*/
-        React.createElement("span", null, "Super:"), /*#__PURE__*/
+        React.createElement("span", null, "EV:"), /*#__PURE__*/
         React.createElement(TransitionGroup, {
             component: "span",
             className: "monocar-slide-aside__name"
@@ -517,7 +340,7 @@ class AnimValue extends React.Component {
 _defineProperty(AnimValue, "defaultProps", {
   delay: 0,
   duration: 800,
-  transformFn: value => Math.floor(value)
+  transformFn: value => value.localstring()
 });
 
 
@@ -611,6 +434,7 @@ class SlideParams extends React.Component {
               className: "monocar-slide-params__name"
             }, "Seats")), /*#__PURE__*/
 
+
           React.createElement("li", {
               className: "monocar-slide-params__item"
             }, /*#__PURE__*/
@@ -643,7 +467,7 @@ class SlideParams extends React.Component {
                 className: "monocar-slide-params__wrapper"
               }, /*#__PURE__*/
               React.createElement(AnimateValue, {
-                className: "monocar-slide-params__value",
+                className: "monocar-slide-params__value prica",
                 value: activeCar.Price,
                 delay: DELAY_Price
               }), /*#__PURE__*/
@@ -888,7 +712,7 @@ class Slider extends React.Component {
           headerHeight = this.slider.header.clientHeight;
 
         if (window.innerHeight < sliderHeight + headerHeight) {
-          return; // do not handle scroll effect when window height is smaller than slider plus header height
+          return;
         }
 
         e.preventDefault();
@@ -910,80 +734,32 @@ class Slider extends React.Component {
       activeSlide: 0
     });
 
-    if (window.location.href.indexOf("?=2014McLarenP1") > -1) {
+    if (window.location.href.indexOf("?=2015TeslaModelX") > -1) {
       this.setActiveSlide(this.state.activeSlide + 0);
 
     }
 
-    if (window.location.href.indexOf("?=2017McLaren720s") > -1) {
+    if (window.location.href.indexOf("?=2017BMWi8") > -1) {
       this.setActiveSlide(this.state.activeSlide + 1);
 
     }
 
-    if (window.location.href.indexOf("?=2010LamborghiniMurcielagoLP6704SV") > -1) {
+
+    if (window.location.href.indexOf("?=2012TeslaModelS") > -1) {
       this.setActiveSlide(this.state.activeSlide + 2);
 
     }
 
-    if (window.location.href.indexOf("?=2014FerrariLaFerrari") > -1) {
+    if (window.location.href.indexOf("?=2014ToyotaPriusXW30") > -1) {
       this.setActiveSlide(this.state.activeSlide + 3);
 
     }
 
-    if (window.location.href.indexOf("?=2016LykanHypersport") > -1) {
+    if (window.location.href.indexOf("?=2011NissanLeaf") > -1) {
       this.setActiveSlide(this.state.activeSlide + 4);
 
     }
 
-    if (window.location.href.indexOf("?=2009LamborghiniReventonRoadster") > -1) {
-      this.setActiveSlide(this.state.activeSlide + 5);
-
-    }
-
-    if (window.location.href.indexOf("?=2007PorscheCarreraGT") > -1) {
-      this.setActiveSlide(this.state.activeSlide + 6);
-
-    }
-
-    if (window.location.href.indexOf("?=2005FordGT") > -1) {
-      this.setActiveSlide(this.state.activeSlide + 7);
-
-    }
-
-    if (window.location.href.indexOf("?=2010LamborghiniGallardoLP5704") > -1) {
-      this.setActiveSlide(this.state.activeSlide + 8);
-
-    }
-
-    if (window.location.href.indexOf("?=2010LamborghiniMurcielago") > -1) {
-      this.setActiveSlide(this.state.activeSlide + 9);
-
-    }
-
-    if (window.location.href.indexOf("?=2014Ferrari458") > -1) {
-      this.setActiveSlide(this.state.activeSlide + 10);
-
-    }
-
-    if (window.location.href.indexOf("?=2006LamborghiniMiuraConcept") > -1) {
-      this.setActiveSlide(this.state.activeSlide + 11);
-
-    }
-
-    if (window.location.href.indexOf("?=2012LamborghiniGallardo") > -1) {
-      this.setActiveSlide(this.state.activeSlide + 12);
-
-    }
-
-    if (window.location.href.indexOf("?=2001LamborghiniDiablo") > -1) {
-      this.setActiveSlide(this.state.activeSlide + 13);
-
-    }
-
-    if (window.location.href.indexOf("?=2014LamborghiniHuracanLP6104") > -1) {
-      this.setActiveSlide(this.state.activeSlide + 14);
-
-    }
     this.setAnimationState(ANIMATION_PHASES.PENDING);
     this.slider.header = document.querySelector('.monocar-header');
     this.slider.content = document.querySelector('.monocar-slider');
@@ -1060,9 +836,8 @@ function Header() {
             alt: ""
           })))));
 
-
-
 }
+
 
 
 /* App
@@ -1079,6 +854,5 @@ class App extends React.Component {
 
   }
 }
-
 
 ReactDOM.render( /*#__PURE__*/ React.createElement(App, null), document.getElementById("root"));

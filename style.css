@@ -1,7 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700);
 
-
-
 body {
   padding: 3em 2em;
   font-family: 'Open Sans', Arial, sans-serif;
@@ -11,14 +9,13 @@ body {
   line-height: 1;
   background-image: url('https://i.imgur.com/9qLGJg9.png');
   background-size: 100% 100%;
-  background-repeat:no-repeat;
+  background-repeat: no-repeat;
   background-size: cover;
   overflow-x: hidden;
   height: 100% !important;
   background-color: black;
   background-position: center;
 }
-
 
 .logo {
   max-width: 100%;
@@ -28,7 +25,6 @@ body {
   display: block;
   margin: 0 auto;
 }
-
 
 .pen {
   max-width: 635px;
@@ -51,13 +47,14 @@ body {
   max-width: 635px;
   width: 100%;
   height: 400px;
-    margin-top: 15px;
+  margin-top: 15px;
   -webkit-transition: all 0.25s ease-in-out;
   -moz-transition: all 0.25s ease-in-out;
   -ms-transition: all 0.25s ease-in-out;
   -o-transition: all 0.25s ease-in-out;
   transition: all 0.25s ease-in-out;
 }
+
 .element {
   background: green;
   width: 202px;
@@ -77,6 +74,7 @@ body {
   -o-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
 }
+
 .element.active {
   width: 282px;
   -webkit-transition: all 0.25s ease-in-out;
@@ -85,6 +83,7 @@ body {
   -o-transition: all 0.25s ease-in-out;
   transition: all 0.25s ease-in-out;
 }
+
 .element.inactive {
   width: 162px;
   -webkit-transition: all 0.25s ease-in-out;
@@ -95,12 +94,11 @@ body {
   opacity: 0.4;
 }
 
-
 .element.compact {
-
   background: url('https://i.imgur.com/gETYqdy.png') 50% 0 no-repeat;
   background-size: cover;
 }
+
 .element.Luxury {
   background: url('https://i.imgur.com/E25eBO5.png') 50% 0 no-repeat;
   background-size: cover;
@@ -111,11 +109,15 @@ body {
   background-size: cover;
 }
 
+.element.EV {
+  background: url('https://i.imgur.com/gG3j9H8.png') 50% 0 no-repeat;
+  background-size: cover;
+}
+
 .element.Muscle {
   background: url('https://i.imgur.com/rJ0LVu6.png') 50% 0 no-repeat;
   background-size: cover;
 }
-
 
 .element.Offroad {
   background: url('https://i.imgur.com/tAZkKV7.png') 50% 0 no-repeat;
@@ -152,83 +154,223 @@ body {
   background-size: cover;
 }
 
+.element.boats {
+  background: url('https://i.imgur.com/oOBzt3A.png') 50% 0 no-repeat;
+  background-size: cover;
+}
+
 .element.Gov {
   background: url('https://i.imgur.com/ErHX4kN.png') 50% 0 no-repeat;
+  background-size: cover;
+}
+
+.element.soon {
+  background: url('https://i.imgur.com/SGsVowU.png') 50% 0 no-repeat;
   background-size: cover;
 }
 
 .element:last-of-type {
   margin: 0;
 }
+
 @media all and (min-width: 900px) {
   .pen {
     max-width: 890px;
   }
+
   .element {
     width: 286px;
   }
+
   .element.inactive {
     width: 246px;
   }
+
   .element.active {
     width: 366px;
   }
+
   .stage {
     max-width: 890px;
     height: 510px;
   }
 }
+
 @media all and (max-width: 660px) {
   .pen {
     max-width: 335px;
   }
+
   .element {
     width: 101px;
   }
+
   .element.inactive {
     width: 61px;
   }
+
   .element.active {
     width: 181px;
   }
+
   .stage {
     max-width: 335px;
   }
 }
+
 @-webkit-keyframes appear {
   15% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
 }
+
 @-moz-keyframes appear {
   15% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
 }
+
 @-o-keyframes appear {
   15% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
 }
+
 @keyframes appear {
   15% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
 }
 
-
 a {
-    display: block;
+  display: block;
+}
+
+.row {
+  animation: fadeIn 1s;
+  -webkit-animation: fadeIn 1s;
+  -moz-animation: fadeIn 1s;
+  -o-animation: fadeIn 1s;
+  -ms-animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.well {
+  background-color: #f5f5f50a;
+  border-color: #f5f5f5;
+  outline: 0;
+  width: 97%;
+  margin-left: 16px;
+  border-radius: 10px;
+  padding-bottom: 0;
+  padding-top: 0;
+}
+
+h5 {
+  font-family: monospace;
+  font-size: 25px;
+  color: white;
+}
+
+.form-control {
+  background-color: #fff0;
+  color: #FFFFFF;
+}
+
+.input-group-addon {
+  color: #FFFFFF;
+  background-color: #eeb0;
+}
+
+.form-control:focus {
+  border-color: #f5f5f5;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px rgb(255 255 255 / 60%);
+  box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px rgb(255 255 255 / 60%);
+}
+
+.linkw:hover {
+  -webkit-box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px rgb(255 255 255 / 60%);
+  box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px rgb(255 255 255 / 60%);
+}
+
+.badge {
+  background-color: #707c7c00;
+  border: 1px solid;
+}
+
+.welltr:hover {
+  border-color: #f5f5f5;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px rgb(255 255 255 / 60%);
+  box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px rgb(255 255 255 / 60%);
+}
+
+.col-md-8 {
+  margin-top: 20px;
 }

@@ -1,75 +1,105 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>MonoCars</title>
-  <link rel="stylesheet" href="./style.css">
+  <link rel="icon" type="image/x-icon" href="./main/img/favicon.ico">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  </script>
   <script src="https://cdn.jsdelivr.net/npm/pace-js@latest/pace.min.js"></script>
+  <script src="./main/js/search.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pace/1.2.4/themes/silver/pace-theme-flash.min.css">
 </head>
+
 <body>
 
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>MonoCars - Home</title>
-</head>
-<body>
+  <html lang="en">
 
-  <div class="header">
-  <img class="logo" src="https://i.imgur.com/rak7v2U.png"/>
+  <head>
+    <meta charset="UTF-8">
+    <title>MonoCars - Home</title>
+  </head>
 
-</div>
+  <body>
 
-	<section class="pen">
+    <div class="header">
+      <img class="logo" src="https://i.imgur.com/rak7v2U.png" />
 
-
-		<div class="stage">
-			<div onclick="location.href='./main/Compact';" style="cursor:pointer;" class="element compact"></div>
-			<div onclick="location.href='./main/Luxury';" style="cursor:pointer;" class="element Luxury"></div>
-			<div onclick="location.href='./main/Miscellaneous';" style="cursor:pointer;" class="element Miscellaneous"></div>
-		</div>
-
-    <div class="stage">
-      <div onclick="location.href='./main/Muscle';" style="cursor:pointer;"class="element Muscle"></div>
-      <div onclick="location.href='./main/Offroad';" style="cursor:pointer;" class="element Offroad"></div>
-      <div onclick="location.href='./main/Rally';" style="cursor:pointer;" class="element Rally"></div>
     </div>
 
-    <div class="stage">
-      <div onclick="location.href='./main/SUV';" style="cursor:pointer;" class="element SUV"></div>
-      <div onclick="location.href='./main/Sedan';" style="cursor:pointer;" class="element Sedan"></div>
-      <div onclick="location.href='./main/Sports';" style="cursor:pointer;" class="element Sports"></div>
-    </div>
-
-    <div class="stage">
-      <div onclick="location.href='./main/Super';" style="cursor:pointer;" class="element Super"></div>
-      <div onclick="location.href='./main/Truck';" style="cursor:pointer;" class="element Truck"></div>
-      <div class="element Gov"></div>
-    </div>
+    <section class="pen">
 
 
-	</section>
 
-	<section class="credit">
+      <form role="form">
+        <div class="form-group">
+          <div class="input-group">
+            <input type="input" class="form-control input-lg" id="txt-search" placeholder="Search ....">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-search"></i></span>
+          </div>
 
-	</section>
-</body>
-</html>
-<!-- partial -->
+        </div>
+      </form>
+      <div id="filter-records"></div>
+
+      <div class="stage">
+        <div onclick="location.href='./main/Compact';" style="cursor:pointer;" class="element compact"></div>
+        <div onclick="location.href='./main/EV';" style="cursor:pointer;" class="element EV"></div>
+        <div onclick="location.href='./main/Luxury';" style="cursor:pointer;" class="element Luxury"></div>
+      </div>
+
+      <div class="stage">
+        <div onclick="location.href='./main/Miscellaneous';" style="cursor:pointer;" class="element Miscellaneous"></div>
+        <div onclick="location.href='./main/Muscle';" style="cursor:pointer;" class="element Muscle"></div>
+        <div onclick="location.href='./main/Offroad';" style="cursor:pointer;" class="element Offroad"></div>
+      </div>
+
+      <div class="stage">
+        <div onclick="location.href='./main/Rally';" style="cursor:pointer;" class="element Rally"></div>
+        <div onclick="location.href='./main/SUV';" style="cursor:pointer;" class="element SUV"></div>
+        <div onclick="location.href='./main/Sedan';" style="cursor:pointer;" class="element Sedan"></div>
+      </div>
+
+      <div class="stage">
+        <div onclick="location.href='./main/Sports';" style="cursor:pointer;" class="element Sports"></div>
+        <div onclick="location.href='./main/Super';" style="cursor:pointer;" class="element Super"></div>
+        <div onclick="location.href='./main/Truck';" style="cursor:pointer;" class="element Truck"></div>
+
+      </div>
+
+      <div class="stage">
+        <div onclick="location.href='./main/boats';" style="cursor:pointer;" class="element boats"></div>
+        <div class="element Gov"></div>
+        <div class="element soon"></div>
+      </div>
+
+    </section>
+
+    <section class="credit">
+
+    </section>
+  </body>
+
+  </html>
+  <!-- partial -->
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
   <script>
-  $('.element').each(function() {
-          $(this).mouseover(function() {
-              $(this).addClass('active');
-            $('.stage').children('.element').not('.active').addClass('inactive');
-          });
-          $(this).mouseleave(function() {
-              $(this).removeClass('active');
-              $('.stage').children('.element').not('.active').removeClass('inactive');
-          });
+    $('.element').each(function() {
+      $(this).mouseover(function() {
+        $(this).addClass('active');
+        $('.stage').children('.element').not('.active').addClass('inactive');
       });
+      $(this).mouseleave(function() {
+        $(this).removeClass('active');
+        $('.stage').children('.element').not('.active').removeClass('inactive');
+      });
+    });
   </script>
 
 </body>
+
 </html>

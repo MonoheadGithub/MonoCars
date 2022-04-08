@@ -16,8 +16,9 @@ c9 = 'https://i.imgur.com/GI6YDKh.png';
 c10 = 'https://i.imgur.com/wfLoC8E.png';
 c11 = 'https://i.imgur.com/bKx8iZl.png';
 c12 = 'https://i.imgur.com/avTaDIa.png';
-c13 = 'https://i.imgur.com/RsFZpbp.png';
-c14 = 'https://i.imgur.com/v5FoSkX.png';
+
+
+
 const slides = [
 
   {
@@ -223,37 +224,8 @@ const slides = [
                   shadowOpacity: 0.5 },
 
 
-                  {
-                    id: 13,
-                    name: "2014 Toyota Prius XW30",
-                    desc:
-                    "Acceleration:Bad / Breaks:Okay / Handling:Okay",
-                    color: "#FFFFFF",
-                    imgFloorUrl: floorImg,
-                    imgUrl: c14,
-                    topSpeed: 62,
-                    slots: 4,
-                    seats:5,
-                    Price: 16999,
-                    bckgHeight: 340,
-                    carShadowHeight: 150,
-                    shadowOpacity: 0.5 },
 
-                  {
-                    id: 14,
-                    name: "2011 Nissan Leaf",
-                    desc:
-                    "Acceleration:Okay / Breaks:Okay / Handling:Okay",
-                    color: "#FFFFFF",
-                    imgFloorUrl: floorImg,
-                    imgUrl: c13,
-                    topSpeed: 52,
-                    slots: 4,
-                    seats:4,
-                    Price: 29999,
-                    bckgHeight: 340,
-                    carShadowHeight: 150,
-                    shadowOpacity: 0.5 },
+
 
 
 ];
@@ -696,7 +668,74 @@ class Slider extends React.Component {constructor(...args) {super(...args);_defi
           this.setActiveSlide(this.state.activeSlide + 1);
         }
       }, 50);
-    });}componentDidMount() {this.setState({ activeSlide: 0  });this.setAnimationState(ANIMATION_PHASES.PENDING);this.slider.header = document.querySelector('.monocar-header');this.slider.content = document.querySelector('.monocar-slider');document.body.addEventListener('wheel', this.handleScroll);}
+    });}componentDidMount() {this.setState({ activeSlide: 0  });
+
+if(window.location.href.indexOf("?=2008SubaruImprezaWRXSTi") > -1) {
+      this.setActiveSlide(this.state.activeSlide + 0);
+
+  }
+
+if(window.location.href.indexOf("?=2016BMW1SeriesM") > -1) {
+    this.setActiveSlide(this.state.activeSlide + 1);
+
+}
+
+if(window.location.href.indexOf("?=2005VolkswagenGolfR32") > -1) {
+  this.setActiveSlide(this.state.activeSlide + 2);
+
+}
+
+if(window.location.href.indexOf("?=1997Volvo850R") > -1) {
+  this.setActiveSlide(this.state.activeSlide + 3);
+
+}
+
+if(window.location.href.indexOf("?=2011FordFocusRS") > -1) {
+  this.setActiveSlide(this.state.activeSlide + 4);
+
+}
+
+if(window.location.href.indexOf("?=1999MitsubishiLancerGSREvolution") > -1) {
+  this.setActiveSlide(this.state.activeSlide + 5 );
+
+}
+
+
+if(window.location.href.indexOf("?=2015VolkswagenSciroccoR") > -1) {
+  this.setActiveSlide(this.state.activeSlide + 6 );
+
+}
+
+if(window.location.href.indexOf("?=2011HondaCivicTypeR") > -1) {
+  this.setActiveSlide(this.state.activeSlide + 7 );
+
+}
+
+if(window.location.href.indexOf("?=1997HondaCivicTypeR") > -1) {
+  this.setActiveSlide(this.state.activeSlide + 8 );
+
+}
+
+if(window.location.href.indexOf("?=2011FordFocusSVT") > -1) {
+  this.setActiveSlide(this.state.activeSlide + 9 );
+
+}
+
+if(window.location.href.indexOf("?=1987ShelbyOmniGLHS") > -1) {
+  this.setActiveSlide(this.state.activeSlide + 10 );
+
+}
+
+if(window.location.href.indexOf("?=1991HondaCR-XSiR") > -1) {
+  this.setActiveSlide(this.state.activeSlide + 11 );
+
+}
+
+
+
+
+
+    this.setAnimationState(ANIMATION_PHASES.PENDING);this.slider.header = document.querySelector('.monocar-header');this.slider.content = document.querySelector('.monocar-slider');document.body.addEventListener('wheel', this.handleScroll);}
 
   componentWillUnmount() {
     document.body.removeEventListener('wheel', this.handleScroll);
