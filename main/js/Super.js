@@ -955,7 +955,7 @@ class Slider extends React.Component {
 
     }
 
-    if (window.location.href.indexOf("?=2010LamborghiniMurcielago") > -1) {
+    if (window.location.href.indexOf("?=2010LMnc") > -1) {
       this.setActiveSlide(this.state.activeSlide + 9);
 
     }

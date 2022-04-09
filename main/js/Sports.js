@@ -1171,7 +1171,7 @@ class Slider extends React.Component {
 
     }
 
-    if (window.location.href.indexOf("?=2015AudiR8V10Plus") > -1) {
+    if (window.location.href.indexOf("?=2015Adplus") > -1) {
       this.setActiveSlide(this.state.activeSlide + 3);
 
     }
@@ -1186,7 +1186,7 @@ class Slider extends React.Component {
 
     }
 
-    if (window.location.href.indexOf("?=2015AudiR8Spyder") > -1) {
+    if (window.location.href.indexOf("?=2015R8Spyder") > -1) {
       this.setActiveSlide(this.state.activeSlide + 6);
 
     }

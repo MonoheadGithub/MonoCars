@@ -1001,7 +1001,7 @@ class Slider extends React.Component {
 
     }
 
-    if (window.location.href.indexOf("?=MercedesBenzSL65AMGr") > -1) {
+    if (window.location.href.indexOf("?=MercedesBenzSL65AMG") > -1) {
       this.setActiveSlide(this.state.activeSlide + 3);
 
     }
