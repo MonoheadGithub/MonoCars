@@ -23,7 +23,7 @@ const {
 const
   floorImg = 'https://i.imgur.com/gj4AbSS.png',
   defualtcarImg = 'https://i.imgur.com/wAgJX0S.png',
-  mis1 = 'https://i.imgur.com/DxjNrBL.png';
+  mis1 = 'https://i.imgur.com/M11Vkso.png';
 mis2 = 'https://i.imgur.com/WizbzEQ.png';
 mis3 = 'https://i.imgur.com/KY3a1c4.png';
 mis4 = 'https://i.imgur.com/NDqPux2.png';
