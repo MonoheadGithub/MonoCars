@@ -69,7 +69,7 @@ const slides = [
     imgUrl: fd3,
     topSpeed: 100,
     slots: 0,
-    seats: 2,
+    seats: 6,
     Price: 0,
     bckgHeight: 300,
     carShadowHeight: 300,
