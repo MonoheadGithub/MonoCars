@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>MonoCars - Police</title>
+  <link rel="icon" type="image/x-icon" href="../../main/img/favicon.ico">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/pace-js@latest/pace.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../../style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pace/1.2.4/themes/silver/pace-theme-flash.min.css">
+</head>
+
+<body>
+
+  <html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>MonoCars - Police</title>
+  </head>
+
+  <body>
+
+    <div class="header">
+      <img class="logo" src="https://i.imgur.com/rak7v2U.png" />
+
+    </div>
+
+    <section class="pen">
+
+
+      <center> <a href="../Jobs"><button class="button">← Back to Jobs</button></a></center>
+
+      <div class="stage" style=" margin-bottom:50px;">
+        <div onclick="location.href='mpd';" style="cursor:pointer;" class="element mpd"></div>
+        <div onclick="location.href='pine';" style="cursor:pointer;" class="element pine"></div>
+        <div onclick="location.href='corrections';" style="cursor:pointer;" class="element corrections"></div>
+      </div>
+
+
+
+      </div>
+
+    </section>
+
+    <section class="credit">
+
+    </section>
+  </body>
+
+  </html>
+  <!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
+  <script>
+    $('.element').each(function() {
+      $(this).mouseover(function() {
+        $(this).addClass('active');
+        $('.stage').children('.element').not('.active').addClass('inactive');
+      });
+      $(this).mouseleave(function() {
+        $(this).removeClass('active');
+        $('.stage').children('.element').not('.active').removeClass('inactive');
+      });
+    });
+  </script>
+
+</body>
+
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous"
+    referrerpolicy="no-referrer" />
+  <meta charset="UTF-8">
+  <title>MonoCars - Corrections</title>
+  <link rel="icon" type="image/x-icon" href=".././img/favicon.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel="stylesheet" href="../style.css">
+  <script src="https://cdn.jsdelivr.net/npm/pace-js@latest/pace.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pace/1.2.4/themes/blue/pace-theme-flash.min.css">
+  <style>
+    .monocar-slider-navigation {}
+
+    @media only screen and (max-width:1800px) {
+      .monocar-slider-navigation {
+        order: 1 !important;
+        width: 100% !important;
+        margin-right: -53px;
+
+      }
+    }
+
+
+
+    .monocar-slider-navigation__item {
+      display: inline-block;
+      padding: 0 5px;
+      line-height: 22px;
+      font-size: 1rem;
+
+    }
+
+    @media only screen and (min-width:768px) {
+      .monocar-slider-navigation__item {
+        font-size: 1.2rem;
+        letter-spacing: 0.6px;
+
+      }
+    }
+
+    @media only screen and (min-width:1200px) {
+      .monocar-slider-navigation__item {
+        display: inline-block !important;
+        margin-top: 5px;
+
+      }
+    }
+
+    @media only screen and (max-width:1800px) {
+      .monocar-slider-navigation__item {
+        margin-top: 5px;
+        border: 0.1px solid !important;
+        margin: 3px !important;
+      }
+
+      body {
+        background-size: auto !important;
+      }
+    }
+
+    .monocar-slider-navigation__item:first-of-type {
+      margin-top: 0;
+    }
+
+
+
+
+    .monocar-slide-aside__desc {
+      height: 11rem;
+    }
+  </style>
+
+
+</head>
+
+<body>
+  <div id="root"></div>
+  <script src='https://unpkg.com/react@16/umd/react.development.js'></script>
+  <script src='https://unpkg.com/react-dom@16/umd/react-dom.development.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/react-transition-group/2.2.0/react-transition-group.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/prop-types/15.6.1/prop-types.js'></script>
+  <script src='https://unpkg.com/lodash@4.17.5/lodash.js'></script>
+  <script src='https://unpkg.com/bezier-easing@2.1.0/dist/bezier-easing.min.js'></script>
+  <script src=".././js/corrections.js"></script>
+
+</body>
+
+</html>

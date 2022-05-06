@@ -169,6 +169,66 @@ body {
   background-size: cover;
 }
 
+.element.police {
+  background: url('https://i.imgur.com/dBBdQYH.png') 50% 0 no-repeat;
+  background-size: cover;
+}
+
+.element.ss {
+  background: url('https://i.imgur.com/jg7eKau.png') 50% 0 no-repeat;
+  background-size: cover;
+}
+
+.element.ems {
+  background: url('https://i.imgur.com/9v49VZg.png') 50% 0 no-repeat;
+  background-size: cover;
+}
+
+.element.security {
+  background: url('https://i.imgur.com/yvW9FMn.png') 50% 0 no-repeat;
+  background-size: cover;
+}
+
+.element.fd {
+  background: url('https://i.imgur.com/0MqOGk1.png') 50% 0 no-repeat;
+  background-size: cover;
+}
+
+.element.Mechanic {
+  background: url('https://i.imgur.com/OYplygz.png') 50% 0 no-repeat;
+  background-size: cover;
+}
+
+.element.garbageman {
+  background: url('https://i.imgur.com/Z3XHJRQ.png') 50% 0 no-repeat;
+  background-size: cover;
+}
+
+.element.delivery {
+  background: url('https://i.imgur.com/LfRpIvC.png') 50% 0 no-repeat;
+  background-size: cover;
+}
+
+.element.bitedriver {
+  background: url('https://i.imgur.com/QrcLO5Y.png') 50% 0 no-repeat;
+  background-size: cover;
+}
+
+.element.mpd {
+  background: url('https://i.imgur.com/XXi9kRw.png') 50% 0 no-repeat;
+  background-size: cover;
+}
+
+.element.pine {
+  background: url('https://i.imgur.com/l7BlfPg.png') 50% 0 no-repeat;
+  background-size: cover;
+}
+
+.element.corrections {
+  background: url('https://i.imgur.com/fRGxysE.png') 50% 0 no-repeat;
+  background-size: cover;
+}
+
 .element:last-of-type {
   margin: 0;
 }
@@ -373,4 +433,21 @@ h5 {
 
 .col-md-8 {
   margin-top: 20px;
+}
+
+.button {
+  position: relative;
+  height: 55px;
+  width: 180px;
+  background: none;
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 300;
+  margin-bottom: 15px;
+  text-align: center;
+  border: 1px solid;
+  cursor: pointer;
+  -webkit-box-shadow: 0px 0px 139px 17px rgba(255, 255, 255, 0.45);
+  -moz-box-shadow: 0px 0px 139px 17px rgba(255, 255, 255, 0.45);
+  box-shadow: 0px 0px 139px 17px rgba(255, 255, 255, 0.45);
 }
