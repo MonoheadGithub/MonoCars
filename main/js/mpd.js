@@ -96,7 +96,7 @@ const slides = [
     imgUrl: mpd4,
     topSpeed: 100,
     slots: 0,
-    seats: 6,
+    seats: 9,
     Price: 0,
     bckgHeight: 300,
     carShadowHeight: 300,
@@ -122,8 +122,8 @@ const slides = [
 
   {
     id: 6,
-    name: "★ Mobile Command Unit",
-    desc: "★ Premium Only ★ Acceleration:Okay / Breaks:Okay / Handling:Okay ➡ ( Chief - Assistant Chief - S.W.A.T Commander)",
+    name: "Mobile Command Unit",
+    desc: "Acceleration:Okay / Breaks:Okay / Handling:Okay ➡ (Staff only)",
     color: "#FFC300",
     imgFloorUrl: floorImg,
     imgUrl: mpd6,
