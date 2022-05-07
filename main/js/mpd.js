@@ -96,7 +96,7 @@ const slides = [
     imgUrl: mpd4,
     topSpeed: 100,
     slots: 0,
-    seats: 9,
+    seats: 10,
     Price: 0,
     bckgHeight: 300,
     carShadowHeight: 300,
