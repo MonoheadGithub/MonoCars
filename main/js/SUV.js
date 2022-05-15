@@ -194,7 +194,7 @@ const slides = [
     imgUrl: suv10,
     topSpeed: 50,
     slots: 4,
-    seats: 2,
+    seats: 4,
     Price: 149999,
     bckgHeight: 340,
     carShadowHeight: 150,
