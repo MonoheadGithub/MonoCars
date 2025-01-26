@@ -1,6 +1,3 @@
-![Monocars](https://i.imgur.com/rak7v2U.png)
-#### Developers
-- Jet0751 ( **Project Lead** )
+Lead Developer for this project is **[@Jetaime-Alexandria](https://github.com/Jetaime-Alexandria)**, Originally created by **[@marw11n](https://github.com/marw11n)**
 
-#### To submit bugs or suggestions.
-Please create an [post on the issue page](https://github.com/MonoheadGithub/MonoCars/issues "post on the issue page"), and we'll look into it.
+![image](https://github.com/user-attachments/assets/1f6fc23a-8a9e-4318-9a09-f0839d89cbb5)
